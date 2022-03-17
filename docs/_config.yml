@@ -1,1 +1,9 @@
 theme: jekyll-theme-architect
+
+# Site Settings
+locale: "en-US"
+title: "Catena-X DevSecOps Tooling"
+title_separator: "-"
+subtitle: ""
+name: ""
+description: "description"
