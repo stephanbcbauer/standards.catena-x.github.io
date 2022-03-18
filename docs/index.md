@@ -1,5 +1,5 @@
 # Who we are
-We offer the Catena-X DevSecOps Toolstack. You want to participate to Catena-X? You want to develop your Catena-X Application? Then take a look on this page. [Link](https://catenax-ng.github.io/acme/WhoWeAre.md)
+We offer the Catena-X DevSecOps Toolstack. You want to participate to Catena-X? You want to develop your Catena-X Application? Then take a look on this page. [Link](WhoWeAre.md)
 
 # Our Service
 
