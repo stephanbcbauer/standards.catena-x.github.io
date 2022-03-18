@@ -2,7 +2,7 @@ theme: jekyll-theme-architect
 
 # Site Settings
 locale: "en-US"
-title: "Catena-X"
+title: "Catena-X DevSecOps Tooling"
 title_separator: "-"
 subtitle: "DevSecOps Tooling"
 name: ""
