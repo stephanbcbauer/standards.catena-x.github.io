@@ -1,56 +1,13 @@
 # Who we are
 We offer the Catena-X DevSecOps Toolstack. You want to participate to Catena-X? You want to develop your Catena-X Application? Then take a look on this page. [Link](whoweare.md)
 
+# Get in touch/ request support
+You have a request? For now, please use our Office Hours every friday and use the existing team channel **"CX - CoP DevSecOps"**! 
+
 # Our Service
 ## Application Onboarding
-You want to onboard your application to Catena-X? We show you how you can do this. Take a look here [Link] (Service_onboarding.md)
+You want to onboard your application to Catena-X? We show you how you can do this. Take a look here [Link](Service_onboarding.md)
 ## Standards and Guidelines
 You need standards, guidelines or how-to's? We prepare - step-by-step - new documentations how to use our product and the tools. Take a look here [Link](Service_standards.md)
 
-# Get in touch/ request support
-You have a request? Please use the this ways to contact us for the following request types:
-## Onboard your Application
-...
-## Consulting Request
-...
-## Permissions
-
 # Internal Processes and Guidelines
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/catenax-ng/acme/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/catenax-ng/acme/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
