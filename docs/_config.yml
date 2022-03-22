@@ -8,13 +8,6 @@ subtitle: "DevSecOps Tooling"
 name: ""
 description: "You are a Catena-X developer? Here you can find all the necessary information to use our central standards and tools"
 
-# Site Footer
-footer:
-  links:
-  - label: "E-Mail"
-      icon: ""
-      url: mailto:test@test.de
-
 # Reading Files
 include:
   - _pages
