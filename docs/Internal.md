@@ -4,4 +4,4 @@
 
 |Link|Description|
 |---|---|
-|[Helm](Helm.md)|How to use helmcharts| 
+|[Helm](Helm.md)|How to use helmcharts|
