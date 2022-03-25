@@ -3,4 +3,4 @@
 ...and what we do
 Here is a short overview about our goals:
 
-![Overview_Responsibilities](/docs/assets/Architecture.svg)
+![Overview_Responsibilities](../assets/Architecture.svg)
