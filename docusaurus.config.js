@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/catenax-ng/acme',
+          editUrl: 'https://github.com/catenax-ng/catenax-ng',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/catenax-ng/acme',
+            'https://github.com/catenax-ng/catenax-ng',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
