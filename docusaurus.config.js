@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'catenax-ng', // Usually your GitHub org/user name.
   projectName: 'catenax-ng.github.io', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
