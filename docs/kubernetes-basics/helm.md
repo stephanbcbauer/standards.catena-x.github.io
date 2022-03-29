@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Helm chart
 
 General documentation see [helm.sh](https://helm.sh/)
