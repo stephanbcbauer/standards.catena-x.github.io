@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'catenax-ng', // Usually your GitHub org/user name.
-  projectName: 'acme', // Usually your repo name.
+  projectName: 'catenax-ng.github.io', // Usually your repo name.
 
   presets: [
     [
