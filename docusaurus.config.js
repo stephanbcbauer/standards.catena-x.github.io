@@ -97,6 +97,10 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Catena-X Automotive Network',
+                href: 'https://catena-x.net/'
+              },
+              {
                 label: 'Icons used from svgrepo with CC0 License',
                 href: 'https://www.svgrepo.com/',
               },
