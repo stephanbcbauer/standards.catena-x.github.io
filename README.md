@@ -7,6 +7,10 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 This deployes through github actions!
 
+## how to use locally
+
+- `npm install`
+- `npm start`
 
 
 
