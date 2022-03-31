@@ -31,7 +31,7 @@ If you still feel lost or you don't feel confident to use our open office hour i
 
 ## How to onboard your product / component
 
-For everything you need to request, pls go to our [Things to request](/docs/resources.md) page.
+For everything you need to request, pls go to our [Things to request](/docs/resources) page.
 
 - Request access to [Catena-X (ng) GithHub Org](https://github.com/catenax-ng)
   - If you join a Team, your Team can invite you to your team
