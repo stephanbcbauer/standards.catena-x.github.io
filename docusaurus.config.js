@@ -58,7 +58,7 @@ const config = {
           },
           {to: '/blog', label: 'News', position: 'left'},
           {
-            href: 'https://github.com/catenax-ng/acme',
+            href: 'https://github.com/catenax-ng/catenax-ng',
             label: 'GitHub',
             position: 'right',
           },
