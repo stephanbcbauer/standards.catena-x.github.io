@@ -27,7 +27,7 @@ In case you prefer a hands-on/direct approach, we have an office hour every frid
 The format of our Office Hour has a short update section at the beginning and after that its open for everyone to ask questions or discuss specific questions you have. 
 
 
-If you still feel lost or you don't feel confident to use our open office hour in a big group, feel free to request a direct [consulting](/docs/resources.md) with us.
+If you still feel lost or you don't feel confident to use our open office hour in a big group, feel free to request a direct [consulting](/docs/resources) with us.
 
 ## How to onboard your product / component
 
