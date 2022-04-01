@@ -1,11 +1,7 @@
 ---
 slug: Office Hours
 title: Office Hours 2020-04-01
-authors:
-  name: DevSecOps Team
-  title: Your DevSecOps enabler
-  url: https://github.com/catenax-ng
-  image_url: https://avatars.githubusercontent.com/u/100771185?s=200&v=4
+authors: DevSecOps
 tags: [news, officehour]
 ---
 
