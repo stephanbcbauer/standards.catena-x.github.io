@@ -8,4 +8,4 @@ sidebar_position: 2
 
 Here is a short overview about our goals:
 
-![Overview_Responsibilities](Architecture.svg)
+![Overview_Responsibilities](assets/Architecture.svg)
