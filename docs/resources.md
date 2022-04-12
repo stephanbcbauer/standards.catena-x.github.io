@@ -43,6 +43,27 @@ To request a new repository, please use [this Jira template](https://jira.catena
 If you need additional help or advice on how to structure your repository after the transition from catenax, just reach out to us on the [CoP Channel](https://teams.microsoft.com/l/channel/19%3a9a3c4a05a3514d07b973c13e7b468709%40thread.tacv2/CX%2520-%2520CoP%2520DevSecOps?groupId=17b1a2dc-67fb-4a49-a2ed-dd1344321439&tenantId=1ad22c6d-2f08-4f05-a0ba-e17f6ce88380).
 
 
+## Request environment
+
+> __BEWARE:__ We do not provide dedicated environments for single teams. We will provide a DEV, INT, and PRE-PROD 
+> environment and teams will collectively use these environments together.
+ 
+Any environment beside DEV, INT and PRE-PROD should have a very specific use case like a fair or a special demonstration event.
+In such cases, we provide a dedicated environment, that will only persist for this demonstration and will be deleted afterwards.
+
+Please use [this Jira template](https://jira.catena-x.net/secure/CreateIssueDetails!init.jspa?pid=10212&issuetype=10401&components=10401&priority=3&summary=NEW%20ENVIRONMENT&description=%0APurpose%3A%20_environment_purpose_%0ARequested%20by%3A%20_person_requesting_the_demonstration_environment_%0AEnd%20date%20of%20demonstration%3A%20_dd.mm.yyyy_%0ATeams%20participating%3A%0A-%20_product_team_name_)
+and fill out the details in the description.
+
+
+## Request access to an environment/namespace
+
+If you need access to a specific environment, or a namespace on an environment, check if you are already part of the 
+catenax-ng GitHub organization. If not, please request access first, like described in [this section](#user-invitation-to-the-catenax-ng-github-organization).
+
+If you are already a member of the GitHub organization, use [this Jira template](https://jira.catena-x.net/secure/CreateIssueDetails!init.jspa?pid=10212&issuetype=10401&components=10401&priority=3&summary=Environment%3A%20request%20access&description=%0AEnvironment%3A%20_DEV%20%2F%20INT%20%2F%20PRE-PROD_%0Anamespace%3A%20_name_of_namespace_%0AGitHub%20team%3A%20_team_that_should_have_access_%0AGitHub%20users%3A%20%0A-%20_github_user_that_should_have_access) 
+to request access.
+
+
 ## General consulting requests
 
 We are happy to help you out on several topics regarding DevSecOps. The following sections describe some of the most common
