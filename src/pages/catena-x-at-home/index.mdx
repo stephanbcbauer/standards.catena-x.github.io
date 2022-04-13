@@ -1,0 +1,194 @@
+
+export const Spacer = ({children}) => (
+  <div>
+    <hr/>
+    <br/>
+  </div>
+);
+
+
+# Overview
+
+Catena-X@Home is a walkthrough through all essential Catena-X services. 
+The target users for Catena-X are developers and architects who want to learn the concepts and try it out by their own.
+
+# What You Will Learn
+
+In this guide, you will learn as **Data Provider** how to:
+
+ - Create sample submodel data
+ - Create an Eclipse Data Space Connector Assets and Contract Definition 
+ - Make your submodel data discoverable with Digital Twins and the Digital Twin Registry
+
+and as **Data Consumer**:
+ - Search for digital twins in the Digital Twin Registry
+ - Request data using Eclipse Data Space Connectors and digital twins as data consumer
+
+## Prerequisits
+
+Before starting this guide, you will need:
+
+ - Tools Installed: [Docker](https://docs.docker.com/get-docker/), [Docker](https://docs.docker.com/compose/install/), [git](https://git-scm.com/downloads) and [Postman](https://www.postman.com/)
+ - GitHub Presonal Access Token: [GitHub](https://github.com/settings/tokens) with `read:packages` permissions. You need the access token to download the docker images.
+    
+## Setup
+
+In this section we will start the Catena-X Core services as docker containers. 
+
+1. Clone the repository [Catena-X](https://github.com/catenax/tractusx):
+   ```bash
+    git clone https://github.com/catenax/tractusx.git
+   ```
+2. Open a terminal and run:
+    ```bash 
+    cd tractusx/eclipsedataspaceconnector/api-wrapper
+    ```
+3. Replace `YOUR_GITHUB_PERSONAL_ACCESS_TOKEN` with your token and run: 
+    ```bash 
+    export GITHUB_TOKEN=<YOUR_GITHUB_PERSONAL_ACCESS_TOKEN>
+    ```
+4. To start all relevant docker containers run:
+  ```bash 
+    docker-compose up -d
+  ```
+5. Verify that the docker containers are running:
+  ```bash 
+    docker ps
+  ```
+6. The setup is now complete! In the next sections we will interact with the services.
+
+
+
+## End-to-End Use Case
+
+The interaction diagram below shows the complete interactions that we will go through.
+
+![End-To-End interaction](/img/catena-x-at-home/sequence-end-to-end.png)
+
+:::note
+In the upcoming sections we will go through each of the relevant steps and explain 
+
+To **try out the the End-to-End** use case you need to import the Postman collection:
+
+[![Open in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/f2c6068bddb1f72263fd?action=collection%2Fimport)
+
+The Postman collection contains all relevant requests from the above diagram.
+:::
+
+<!-- 
+### Components Overview
+Component | Description
+--- | --- |
+Client | 301 |
+SubmodelServer | 301 |
+Eclipse Data Space Connector | 301 |
+Client | 301 |
+Client | 301 |
+-->
+
+<br />
+
+### Register EDC assets and Digital Twins
+
+In this section we will focus on the steps that a **Data Provider** has to follow.
+
+
+<details>
+    <summary>
+      Actor: Data Provider 
+    </summary>
+    <div>
+      The data provider registers AAS Descriptors and Submodel Descriptors so that consumers 
+      can query for AAS Descriptors and request data via the Submodel Descriptor Endpoints.   
+    </div>
+
+</details>
+
+<Spacer/>
+
+#### Step 1: Create Sample Material Data
+
+
+<details>
+    <summary>
+      What is a Submodel Server
+    </summary>
+    <div>
+      A Submodel Server is a service that serves data that you want to make available to data consumers.
+      Almost all organizations do have their own structure for their data. Hence, Data Providers will likely implement their own
+      Submodel Servers that mainly map their own structure into Catena-X defined Semantic Models. 
+      <p><b>Being compliant with a Semantic Model is the only requirement for a Submodel Server. </b></p>
+    </div>
+
+</details>
+
+
+For the purpose of the demonstration we created a trivial Submodel Server that is compliant with the Semantic Model Traceability.
+
+The first request creates a Traceability data. Our final goal is to make this data available to data consumers.
+
+:::note Action
+Plese run the request `1. Create Sample Data` of the **Postman** collection to create a data entry.
+:::
+
+You now created traceability data that we can use to share.
+
+<Spacer/>
+
+#### Step 2: Create an EDC Asset
+
+<details>
+    <summary>
+      What is an EDC Asset
+    </summary>
+    <div>
+       An EDC Asset
+    </div>
+</details>
+
+:::note Action
+Plese run the request `2. Create an EDC Asset` of the **Postman** collection.
+:::
+
+#### Step 3: Create a EDC contract definition
+
+<details>
+    <summary>
+      What is an EDC contract definition
+    </summary>
+    <div>
+       An EDC contract definition is ... .. 
+    </div>
+
+</details>
+
+
+:::note Action
+Plese run the request `3. Create an EDC Contract definition` of the **Postman** collection.
+:::
+
+<Spacer/>
+
+#### Step 4: Register digital twin with a reference to submodel data
+
+
+
+:::note Action
+Plese run the request `4. Create an EDC Contract definition` of the **Postman** collection.
+:::
+
+<Spacer/>
+
+### Consuming data of a digital twin 
+
+In this section we will focus on the steps a **Data Consumer** has to follow.
+
+<details>
+    <summary>
+      Actor: Data Consumer
+    </summary>
+    <div>
+      The Data Consumer are accessing the Digital Twin Registry to discover and consume data from the Submodel Descriptor Endpoints. 
+      Searching the Digital Twin Registry and requesting data of a digital twin are the main interests of a Data Consumer. 
+    </div>
+</details>
