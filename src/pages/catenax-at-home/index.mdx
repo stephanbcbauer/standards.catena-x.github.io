@@ -35,17 +35,13 @@ Before starting this guide, you will need:
 
 In this section we will start the Catena-X Core services as docker containers. 
 
-1. Clone the repository [Catena-X](https://github.com/catenax/tractusx):
+1. Clone the repository [Catena-X](https://github.com/catenax-ng/catenax-at-home):
    ```bash
-    git clone https://github.com/catenax/tractusx.git
+    git clone https://github.com/catenax-ng/catenax-at-home.git
    ```
 2. Open a terminal and run:
     ```bash 
-    cd tractusx/eclipsedataspaceconnector/api-wrapper
-    ```
-3. Replace `YOUR_GITHUB_PERSONAL_ACCESS_TOKEN` with your token and run: 
-    ```bash 
-    export GITHUB_TOKEN=<YOUR_GITHUB_PERSONAL_ACCESS_TOKEN>
+    cd getting-started-guide
     ```
 4. To start all relevant docker containers run:
   ```bash 
@@ -346,18 +342,5 @@ In this section we will focus on the steps a **Data Consumer** has to follow.
     </div>
 </details>
 
-#### Step 1: 
-
-
-
-For the purpose of the demonstration we created a trivial Submodel Server that is compliant with the Semantic Model Traceability.
-
-The first request creates a Traceability data. Our final goal is to make this data available to data consumers.
-
-:::note Action
-Plese run the request `1. Create Sample Data` of the **Postman** collection to create a data entry.
-:::
-
-You now created traceability data that we can use to share.
 
 <Spacer/>
