@@ -1,0 +1,63 @@
+@startuml
+skinparam monochrome true
+autonumber
+
+box "Data Provider"
+participant ClientProvider as "Client"
+participant SubmodelServer as "SubmodelServer"
+participant EDCProvider as "EDC Provider"
+end box
+
+box "Catena-X"
+participant AASRegistry as "AASRegistry"
+end box
+
+box "Data Consumer"
+participant EDCConsumer as "EDC Consumer"
+participant APIWrapper as "APIWrapper"
+participant AASProxy as "AASProxy"
+participant ClientConsumer as "Client"
+end box
+
+ClientProvider -> SubmodelServer: Create sample material data
+
+ClientProvider -> EDCProvider: Create new EDC Asset
+ClientProvider -> EDCProvider: Create new contract definition
+ClientProvider -> AASRegistry: Register digital twin with reference to submodel data
+
+
+ClientConsumer -> AASProxy: Search digital twins by asset ids
+
+AASProxy -> AASRegistry: Forward request
+AASProxy <-- AASRegistry: Response
+
+AASProxy -> AASProxy: Rewrite url for submodel endpoints to AAS Wrapper
+
+ClientConsumer <-- AASProxy: Response
+ClientConsumer -> ClientConsumer:
+note left
+ Extract submodel endpoint from response
+end note
+
+ClientConsumer -> APIWrapper: Request submodel data of the digital twin
+
+group APIWrapper EDC Abstractions
+
+APIWrapper -> EDCConsumer: Forward request
+note left 
+ For simplicity reasons all EDC-specific calls that the APIWrapper and
+ the EDC connectors do are not shown here. There are a lot more interactions.
+ The APIWrapper does implement the heavy lifting for you.
+end note
+EDCConsumer -> EDCProvider: Forward request
+
+EDCProvider -> SubmodelServer: Forward request
+EDCProvider <-- SubmodelServer: Response with submodel data (see step 1)
+
+EDCConsumer <-- EDCProvider: Response
+APIWrapper <-- EDCConsumer: Response
+end 
+
+
+ClientConsumer <-- APIWrapper: Response
+@enduml
