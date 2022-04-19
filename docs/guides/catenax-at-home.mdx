@@ -1,3 +1,7 @@
+---
+title: CatenaX@Home Getting Started Guide
+slug: /catenax-at-home-getting-started-guide
+---
 
 export const Spacer = ({children}) => (
   <div>
@@ -59,7 +63,7 @@ In this section we will start the Catena-X Core services as docker containers.
 
 The interaction diagram below shows the complete interactions that we will go through.
 
-![End-To-End interaction](/img/catenax-at-home/sequence-end-to-end.png)
+![End-To-End interaction](assets/catenax-at-home/sequence-end-to-end.png)
 
 :::note
 In the upcoming sections we will go through each of the relevant steps and explain 
@@ -328,7 +332,7 @@ The API expects the `specificAssetIds` as `URL` encoded `JSON Array` query param
 Please open the Postman request `1. Query for a Digital Twin` and note the `assetId` query parameter.
 You can decode the value with Postman to make it more readable. Mark the complete value, right click and use the button `DecodeURIComponent`.
 
-![End-To-End interaction](/img/catenax-at-home/postman-assetids-decode.png)
+![End-To-End interaction](assets/catenax-at-home/postman-assetids-decode.png)
 
 The decoded value is as below. Note that the key and value of the entry matches exactly the `specificAssetIds` of the DigitalTwin we created.
 The API returns all DigitalTwins matching the key value pair. If you want to avoid multiple results you can query more specific by providing multiple key value pairs.
