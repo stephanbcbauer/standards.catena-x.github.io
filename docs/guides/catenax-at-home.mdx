@@ -279,9 +279,9 @@ The payload for the creation of a digital twin is:
                 {
                     "interface": "SUBMODEL-1.0RC02",
                     "protocolInformation": {
-                        // {{providerControlPlaneDockerInternal}}/{{digitalTwinId}}-{{digitalTwinSubmodelId}}
+                        // {{providerControlPlaneDockerInternal}}/{{providerBpn}}/{{digitalTwinId}}-{{digitalTwinSubmodelId}}
                         // highlight-next-line
-                        "endpointAddress": "edc://provider-control-plane:8080/urn:uuid:365e6fbe-bb34-11ec-8422-0242ac120002-urn:uuid:61125dc3-5e6f-4f4b-838d-447432b97918/submodel?content=value&extent=withBlobValue",
+                        "endpointAddress": "http://provider-control-plane:8080/some-bpn/urn:uuid:365e6fbe-bb34-11ec-8422-0242ac120002-urn:uuid:61125dc3-5e6f-4f4b-838d-447432b97918/submodel?content=value&extent=withBlobValue",
                         "endpointProtocol": "IDS/ECLIPSE DATASPACE CONNECTOR",
                         "endpointProtocolVersion": "0.0.1-SNAPSHOT"
                     }
@@ -403,7 +403,7 @@ The request is targeted directly to the Digital Twin registry.
                     "interface": "SUBMODEL-1.0RC02",
                     "protocolInformation": {
                         // highlight-next-line
-                        "endpointAddress": "edc://provider-control-plane:8090/urn:uuid:365e6fbe-bb34-11ec-8422-0242ac120002-urn:uuid:61125dc3-5e6f-4f4b-838d-447432b97918/submodel?content=value&extent=withBlobValue",
+                        "endpointAddress": "http://provider-control-plane:8090/some-bpn/urn:uuid:365e6fbe-bb34-11ec-8422-0242ac120002-urn:uuid:61125dc3-5e6f-4f4b-838d-447432b97918/submodel?content=value&extent=withBlobValue",
                         "endpointProtocol": "IDS/ECLIPSE DATASPACE CONNECTOR",
                         "endpointProtocolVersion": "0.0.1-SNAPSHOT"
                     }
