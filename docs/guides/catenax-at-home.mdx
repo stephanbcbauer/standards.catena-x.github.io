@@ -365,8 +365,8 @@ Please run the request `1.2 Query for a Digital Twin` of the **Postman** collect
 :::
 
 You may already notice that the `URL` we executed the previous request is targeted to the **AAS Proxy**.
-The **AAS Proxy** abstracts the resolution of the `SubmodelDescriptor` endpoint addresses to **API Wrapper** compatible endpoints.
-The **API Wrapper** is an essential component and handles all the `EDC` complexities for you.
+The **AAS Proxy** abstracts the resolution of the `SubmodelDescriptor` endpoint addresses to **API-Wrapper** compatible endpoints.
+The **API-Wrapper** is an essential component and handles all the `EDC` complexities for you.
 
 Take a look to the `SubmodelDescriptor#endpoints#endpointAddress` in the response.
 
@@ -414,7 +414,7 @@ The request is targeted directly to the Digital Twin registry.
 ```
 
 The AAS Proxy rewrites the URL to itself. `localhost:4245` is the local address of the AAS Proxy.
-If you invoke the endpoint address of the `SubmodelDescriptor` the AAS Proxy will call the **API Wrapper** which in turn requests the data through the EDC connectors.
+If you invoke the endpoint address of the `SubmodelDescriptor` the AAS Proxy will call the **API-Wrapper** which in turn requests the data through the EDC connectors.
 
 #### Step 3: Get Submodel Data
 
@@ -426,7 +426,7 @@ Please run the request `2. /submodel - Get submodel data` of the **Postman** col
 
 Note that the URL is the same as the `SubmodelDescriptor` endpoint of our Digital Twin we requested from the **AAS Proxy**.
 
-The Postman request `2.1 /submodel - WITHOUT-AAS-PROXY` contains an example of the API call against the **AAS Proxy** issues against the **API Wrapper**.
+The Postman request `2.1 /submodel - WITHOUT-AAS-PROXY` contains an example of the API call against the **AAS Proxy** issues against the **API-Wrapper**.
 This detail is important for you when you do not want to deploy the AAS Proxy so that you can replicate the logic in your solution.
 
 :::success
