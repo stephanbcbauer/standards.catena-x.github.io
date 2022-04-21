@@ -76,7 +76,7 @@ const config = {
               },
               {
                 label: 'Architecture',
-                to: '/docs/architecture/who-are-we',
+                to: '/docs/architecture',
               },
               {
                 label: 'Guides',

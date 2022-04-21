@@ -27,7 +27,7 @@ const FeatureList = [
     Svg: require('@site/static/img/tools-and-utensils-hardware-svgrepo-com.svg').default,
     description: (
       <>
-        Feel free to browse our catalog of Resources you can request directly from us.
+        Feel free to browse our catalog of <a href="/docs/resources">Resources you can request</a> directly from us.
       </>
     ),
   },
