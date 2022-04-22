@@ -2,7 +2,7 @@
 title: How To Use HashiCorp Vault
 --- 
 
-This guide is a small howto about how to store your secrets using HashiCorp Vault. Following prerequisites have to be
+This guide is a small howto about storing your secrets using HashiCorp Vault. Following prerequisites have to be
 met:
 
 - your product-team must have been onboarded to Catena-X NG GitHub organization
