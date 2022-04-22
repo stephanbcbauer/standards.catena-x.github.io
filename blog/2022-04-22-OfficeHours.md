@@ -15,7 +15,7 @@ In our today's office hours, we discussed the following topics
 1. News from the Security Team
    1. No updates
 1. Q&A
-   1. How does a developer access a database for testing? -> Please try to use an temporial ingress. If this doesn't work (we have not verified this yet), pls get in touch with us so we can provide you with another solution, potentially switching the ingress ctrl.
+   1. How does a developer access a database for testing? -> Please try to use a temporary ingress. If this doesn't work (we have not verified this yet), pls get in touch with us, so we can provide you with another solution, potentially switching the ingress ctrl.
    1. ArgoCD automatic redeployment doesn't work -> You need to enable auto-sync AND self heal. Self heal is relevant if you don't have a clean slate, ArgoCD will not auto sync if its not green.
 1. Hands-on
 
