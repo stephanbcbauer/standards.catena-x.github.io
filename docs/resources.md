@@ -58,6 +58,18 @@ catenax-ng GitHub organization. If not, please request access first, like descri
 If you are already a member of the GitHub organization, use [this Jira template](https://jira.catena-x.net/secure/CreateIssueDetails!init.jspa?pid=10212&issuetype=10401&components=10401&priority=3&summary=Environment%3A%20request%20access&description=%0AEnvironment%3A%20_DEV%20%2F%20INT%20%2F%20PRE-PROD_%0Anamespace%3A%20_name_of_namespace_%0AGitHub%20team%3A%20_team_that_should_have_access_%0AGitHub%20users%3A%20%0A-%20_github_user_that_should_have_access)
 to request access.
 
+## Request databases and other Azure services
+
+Currently, we do not offer azure services as we try to provide a cloud agnostic platform stack. Please try to use a helm dependency for services you require.
+
+We will provide azure services soon but only for critical / central services.
+
+## Request access / setup SonarCloud
+
+Currently SonarCloud is NOT mandatory for Release 1. VeraCode is. If you want to use SonarCloud right now, you can request scanning of **public** repositories (**private** are not supported!).
+
+Use [this Jira template](https://jira.catena-x.net/secure/CreateIssueDetails!init.jspa?pid=10212&issuetype=10401&components=10401&priority=3&summary=SonarCloud%20onboarding&description=Public%20repository%20...) for SonarCloud support.
+
 ## General consulting requests
 
 We are happy to help you out on several topics regarding DevSecOps. The following sections describe some of the most common
