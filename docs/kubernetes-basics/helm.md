@@ -4,7 +4,19 @@ sidebar_position: 2
 
 # Helm chart
 
-General documentation see [helm.sh](https://helm.sh/)
+General documentation see [helm.sh](https://helm.sh/).
+
+Catena-X uses kubernetes as a platform abstraction which requires kubernetes resources and container images.
+
+In a cloud native environment, to be able to deploy software, you need two main components:
+- container image -> what to run
+- kubernetes resources -> how to run it
+
+To have more flexibility on how to bundle your kubernetes resources, we decided on helm. It provides basic templating, feature flags and separated values files for easy configuration.
+
+Helm comes with features which make it easy to use your helm chart from others:
+- values.yaml file which enables a central way to configure parameters of your setup
+- helm dependencies: If you need a database or any other service, you can pull in helm charts which provide that service and make your application runable independend from external dependencies. This also makes e2e testing much easier
 
 ## Learning resources
 
@@ -56,9 +68,9 @@ If you run the same pod multiply times, it can be that the pods are running on t
 
 ### Configuration for multiply environments
 
-WIP -> problem if we now suggest to everyone to use values-XXX.yaml, than we will have different env in our github code manifested and external entities will have those values available to them which might confuse them.
-
 The current approach to manifest environment specific values is to provide a values.yaml with sane default values and overriding only relevant portions in a values-ENV.yaml file. Then referencing both values*.yaml files in argocd.
+
+If you don't want to have catena-x environment specific 'setting files/value-* files' in your repository, you can do a [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) build and remove all files you don't want to officially release.
 
 TODO: Add screenshot from argocd and from argocd application code.
 
