@@ -57,6 +57,7 @@ the [CoP Channel](https://teams.microsoft.com/l/channel/19%3a9a3c4a05a3514d07b97
 
 > __BEWARE:__ We do not provide dedicated environments for single teams. We will provide a DEV, INT, and PRE-PROD
 > environment and teams will collectively use these environments together.
+> A list of available environments can be found [in the Catena-X Confluence](https://confluence.catena-x.net/pages/viewpage.action?pageId=25228715).
 
 Any environment beside DEV, INT and PRE-PROD should have a very specific use case like a fair or a special demonstration
 event.
