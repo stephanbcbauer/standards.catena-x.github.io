@@ -17,14 +17,19 @@ dependencies:
 ...
 ```
 Name should match the name in the Chart.yaml of the dependency Helm chart.
+
 The version field should contain a semantic version or version range.
+
 The repository URL should point to a Chart Repository, or can be defined as the path to the directory of the dependency charts stored locally.
+
 The condition controls whether or not to install the dependency, in this case this option is defined in values.yaml (see below).
 
 [Further info](https://helm.sh/docs/helm/helm_dependency/)
+
 [Best Pactices](https://helm.sh/docs/chart_best_practices/dependencies/)
 
 How to en-/disable the deployment of Postgresql and configure it:
+
 [values.yaml](https://github.com/backstage/backstage/blob/master/contrib/chart/backstage/values.yaml)
 ```
 ...
@@ -43,9 +48,11 @@ postgresql:
 ```
 
 Further parameters that can be configured:
+
 [Bitnami Postgresql Helm Chart readme](https://github.com/bitnami/charts/blob/master/bitnami/postgresql/README.md#parameters)
 
 Generate ca certs and random password for Postgresql:
+
 (e.g. templates\_helpers.tpl)
 ```
 {{/*
@@ -80,7 +87,9 @@ Generate a password for the postgres user used for the connections from the back
 {{- end -}}
 ```
 Create a configmap or secret with the generated cert:
+
 (e.g. templates/...yaml)
+
 configmap - cert:
 ```
 {{- if .Values.postgresql.enabled }}
@@ -124,7 +133,6 @@ data:
 {{ include "generateCerts" . | indent 2 }}
 {{- end }}
 ```
-
 secret - password:
 ```
 apiVersion: v1
@@ -144,8 +152,8 @@ data:
   postgresql-password: {{ include postgresql.generateUserPassword . }}
 {{- end }}
 ```
-
 Postgresql connetion settings:
+
 (backend deployment)
 ```
 apiVersion: apps/v1
