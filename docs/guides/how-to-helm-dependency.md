@@ -6,6 +6,7 @@ This guide shows how to reference a Helm chart as dependency through an example.
 The example application is [Backstage](https://backstage.io/) which by default installs a dedicated Postgresql instance as a dependency in case you do not already have one and want to specify it in the application configuration.
 
 How to reference the Postgresql Helm chart:
+
 [Chart.yaml](https://github.com/backstage/backstage/blob/master/contrib/chart/backstage/Chart.yaml)
 ```
 ...
@@ -149,7 +150,7 @@ data:
 {{- if not .Values.postgresql.enabled }}
   postgresql-password: {{ .Values.appConfig.backend.database.connection.password | b64enc }}
 {{- else -}}
-  postgresql-password: {{ include postgresql.generateUserPassword . }}
+  postgresql-password: {{ include postgresql.generateUserPassword . | b64enc }}
 {{- end }}
 ```
 Postgresql connetion settings:
