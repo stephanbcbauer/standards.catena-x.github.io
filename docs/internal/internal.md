@@ -4,5 +4,6 @@ slug: /internal
 
 # Internal Guides
 
-These guides are  
-**only for those who operate the environment**
+:::info
+These guides are only for those who operate the environment
+:::
