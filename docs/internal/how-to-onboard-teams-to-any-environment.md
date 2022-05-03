@@ -1,6 +1,6 @@
 ---
-title: How to onboard product-teams in Hotel Budapest
-slug: /how-to-onboard-teams-in-hotel-budapest
+title: How To Onboard Product-Teams To Any Environment
+slug: /how-to-onboard-teams-to-any-environment
 ---
 
 :::info
@@ -43,11 +43,11 @@ To invite a person to a specific GitHub team, follow these steps:
 - In GitHub organization go to [People](https://github.com/orgs/catenax-ng/people)
 - Click button _Invite member_ on the right side
 - In the field _Search by username, full name or email address_ enter one of the suggestions and select user
-- Click on _Invite_ to finaly invite someone to CatenaX-NG GitHub organization
+- Click on _Invite_ to finally invite someone to CatenaX-NG GitHub organization
 
 :::info
 
-The person must click/accept the invitation to our GitHub organization before someone can be added to one of out
+The person must click/accept the invitation to our GitHub organization before someone can be added to one of our
 organization teams.
 
 :::
@@ -62,8 +62,8 @@ GitHub organization:
   upper corner
 - Insert _Team name_ with naming schema `product-<productName>`
 - Add optional _Description_
-- Apply defaults for _Parent team_ and _Team visivility_
-- Click button _Create team_ to finaly create the team
+- Apply defaults for _Parent team_ and _Team visibility_
+- Click button _Create team_ to finally create the team
 
 ### Add a Member To A GitHub Team
 
@@ -127,7 +127,7 @@ product-productName-ro_ policy will be applied to AppRole auth method.
 To create the policies, login to Vault and
 
 - click on _Policies_ in the top menu
-- click on _Create ACL poliy +_
+- click on _Create ACL policy +_
 - enter the policy name in the _Name_ field
 - enter following to _Policy_ field:
   - for the _product-productName_ policy
@@ -181,7 +181,7 @@ $ vault write auth/approle/role/product-productName \
     secret_id_num_uses=40
 ```
 
-After the AppRole has been created for the team, _secret-id_ and _role_id_ have to be issued/read.
+After the AppRole has been created for the team, _secret_id_ and _role_id_ have to be issued/read.
 
 #### The Secret ID
 
@@ -307,7 +307,7 @@ The secret will be called _vault-secret_ and stored in k8s namespace related to 
 
 ### Prepare Deployment Of ArgoCD Project And AVP Secret
 
-To deploy k82 namespace, ArgoCD Project and the AVP secret to Hotel Budapest you'll have to add the two created manifest
+To deploy k8s namespace, ArgoCD Project and the AVP secret to Hotel Budapest you'll have to add the two created manifest
 files to `environments/hotel-budapest/kustomization.yaml`
 in [k8s-cluster-stack](https://github.com/catenax-ng/k8s-cluster-stack) repo:
 
@@ -324,7 +324,7 @@ resources:
   [ ... ]
 ```
 
-Please add the new product-team in alphabetical order to the _recources_ section of file `kustomization.yaml`.
+Please add the new product-team in alphabetical order to the _resources_ section of file `kustomization.yaml`.
 
 ### Create Pull Request
 
