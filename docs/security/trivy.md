@@ -12,7 +12,7 @@ In order for Trivy to scan the correct GitHub packages, they must be specified i
 
 Integration steps per GitHub package:
 
-1. Copy job _analyze-\<REPLACE-ME container name\>_
+1. Copy job _analyze-<REPLACE-ME container name\>_
 
 2. Replace the name of the job with the name of the GitHub package - green box.
 
