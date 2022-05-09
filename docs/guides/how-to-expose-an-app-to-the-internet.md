@@ -55,7 +55,7 @@ spec:
                   # Port number, the kubernetes service is listening on
                   # Adjust that to your services' port
                   number: 8080
-                  
+
   # Config for creating proper TLS certificates host has to match the one from the ingress rule
   tls:
     - hosts:
@@ -65,7 +65,7 @@ spec:
 {{- end }}
 ```
 
-A values.yaml used for this template could look like the following: 
+A values.yaml used for this template could look like the following:
 
 ```yaml
 appName: "my-app"
@@ -74,4 +74,3 @@ environment: "dev"
 ingress:
   enabled: true
 ```
-

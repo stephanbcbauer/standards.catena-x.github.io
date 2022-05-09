@@ -4,27 +4,27 @@ sidebar_position: 2
 
 # Trivy
 
-We <b>can containers</b> with Trivy.
+We **scan containers** with Trivy.
 
-If you have any questions, please contact us <i>dl_CoP_IT_Security@catena-x.net</i>
-
-Add the following GitHub action <i>trivy.yml</i> to your repository workflows.
+Add the following GitHub action _trivy.yml_ to your repository workflows.
 
 In order for Trivy to scan the correct GitHub packages, they must be specified in the action.
 
 Integration steps per GitHub package:
 
-1. Copy job <i>analyze-\<REPLACE-ME container name\></i>
+1. Copy job _analyze-\<REPLACE-ME container name\>_
 
-2. Replace the name of the job with the name of the GitHub package - <span style="color:green">green box</span>.
+2. Replace the name of the job with the name of the GitHub package - green box.
 
-3. Replace <i>image-ref</i> with the <span style="color:yellow">yellow box</span> of the GitHub package.
+3. Replace _image-ref_ with the yellow box of the GitHub package.
 
 :::info
 
-In order to always scan the latest GitHub package, a tag (<span style="color:red">red box</span>) must be set for the packages and specified in the <i>image-ref</i>.
+In order to always scan the latest GitHub package, a tag (red box) must be set for the packages and specified in the _image-ref_.
 
 :::
+
+![github-packages-example.png](assets/github-packages-example.png)
 
 ```yaml
 # Depending on the location of your Docker container

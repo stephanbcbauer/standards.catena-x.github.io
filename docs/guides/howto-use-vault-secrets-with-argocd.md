@@ -1,6 +1,7 @@
 ---
 title: How To Use Vault Secrets With ArgoCD
 ---
+
 This guide is a small howto about using secrets stored in HashiCorp Vault with your ArgoCD applications (with Helm
 charts or Kustomize).
 
@@ -76,7 +77,7 @@ metadata:
   name: avp-example-path-secret
 type: Opaque
 stringData:
-  foo: {{ .Values.avp.helm.secretPath }}
+  foo: { { .Values.avp.helm.secretPath } }
 ```
 
 For more details about placeholders, please refer
