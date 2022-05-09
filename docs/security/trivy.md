@@ -26,8 +26,6 @@ In order to always scan the latest GitHub package, a tag (<span style="color:red
 
 :::
 
-![github-packages-example.png](assets/github-packages-example.png)
-
 ```yaml
 # Depending on the location of your Docker container
 # you need to change the path to the specific Docker registry.
