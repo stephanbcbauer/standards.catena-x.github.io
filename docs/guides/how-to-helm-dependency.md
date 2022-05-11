@@ -120,6 +120,7 @@ data:
 {{- fail (printf "\n\nPlease create the '%s' configmap with the CA certificate for your existing postgresql: kubectl create configmap %s --from-file=ca.crt" $caConfig $caConfig) }}
 {{- end }}
 {{- end }}
+
 ```
 
 secret - cert:
