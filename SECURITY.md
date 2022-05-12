@@ -1,23 +1,14 @@
 # Security Policy
- 
- 
- 
- 
+
 ## Reporting a bug in Catena-X
- 
- 
- 
- 
-Report security bugs in Catena-X to "dl_CoP_IT_Security@catena-x.net".
+
+Report security bugs in Catena-X to _dl_CoP_IT_Security@catena-x.net_.
  
 Your report will be acknowledged within 5 days, and you’ll receive a more detailed response to your report within 10 days indicating the next steps in handling your submission.
  
 After the initial reply to your report, the security team will endeavor to keep you informed of the progress being made towards a fix and full announcement, and may ask for additional information or guidance surrounding the reported issue.
  
 Please do not report security bugs through public GitHub issues.
- 
- 
- 
  
 Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
  
@@ -36,16 +27,10 @@ Please include the requested information listed below (as much as you can provid
 - Impact of the issue, including how an attacker might exploit the issue
  
 This information will help us triage your report more quickly.
- 
- 
- 
- 
+
 ## Reporting a bug in a third party module
  
 Security bugs in third party modules should be reported to their respective maintainers.
- 
- 
- 
  
 ## Disclosure policy
  
