@@ -54,7 +54,7 @@ Each time provide a different unseal key out of the five that are generated duri
 
 `kubectl --kubeconfig=.kube/cx-vault-admin -n vault exec pod/vault-0 -- /bin/sh vault operator unseal`
 
-##Display the status of the first instance and note the 
+##Display the status of the first instance and note the internal url / ip address of the first node that will be the leader
 
 `kubectl --kubeconfig=.kube/cx-vault-admin -n vault exec pod/vault-0 -- /bin/sh vault status`
 
