@@ -61,7 +61,7 @@ If the initialization and unseal were successful, you will see the following sta
   Sealed                   false
   ...
 
-## Join the other two instances as followers to the first insance
+## Join the other (two) instances as followers to the first insance
 
 Provide the vault root token when prompted
 
@@ -109,7 +109,7 @@ az keyvault secret show --vault-name cx-vault-unseal --name vault-approle-secret
 [Terraform code](https://github.com/catenax-ng/k8s-cluster-stack/blob/feature/A1ODT-520-vault-policy-housekeeping/terraform/02_vault/main.tf)
 
 ```
-cd terraform/02_vault
+cd k8s-cluster-stack/terraform/02_vault
 terraform init
 terraform plan -var='login_approle_role_id=${APPROLE_ID}' -var='login_approle_secret_id=${APPROLE_SECRET_ID}' -out .terraform/vault.tfplan
 terraform apply ".terraform/vault.tfplan"
