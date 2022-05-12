@@ -1,5 +1,5 @@
 ---
-title: How to setup and AKS cluster via terraform
+title: How to setup Hashicorp Vault
 ---
 
 This how-to will guide you through the deployment and configuration of Hashicorp Vault
