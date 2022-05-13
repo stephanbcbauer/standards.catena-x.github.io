@@ -12,15 +12,15 @@ In order for Trivy to scan the correct GitHub packages, they must be specified i
 
 Integration steps per GitHub package:
 
-1. Copy job _analyze-<REPLACE-ME container name\>_
+1. Copy job `analyze-<REPLACE-ME container name\>`
 
 2. Replace the name of the job with the name of the GitHub package - green box.
 
-3. Replace _image-ref_ with the yellow box of the GitHub package.
+3. Replace `image-ref` with the yellow box of the GitHub package.
 
 :::info
 
-In order to always scan the latest GitHub package, a tag (red box) must be set for the packages and specified in the _image-ref_.
+In order to always scan the latest GitHub package, a tag (red box) must be set for the packages and specified in the `image-ref`.
 
 :::
 
