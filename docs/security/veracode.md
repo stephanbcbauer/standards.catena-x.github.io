@@ -8,14 +8,6 @@ We perform **static application security testing**, **FOSS license scanning**, a
 
 Two actions are provided - _upload and scan_ and _pipeline_.
 
-For both actions Veracode api credentials are needed.
-
-![api-creds.png](assets/api-creds.png)
-
-![generate-creds.png](assets/generate-creds.png)
-
-Please create GitHub Secrets for these confidential keys: `API_ID` and `API_KEY`.
-
 ## Upload and Scan
 
 Depending on how your application is built, you will need to run the build once and configure it under `filepath`.
@@ -26,8 +18,8 @@ Also the name of the Veracode application must be specified under `appname`.
 name: "Veracode upload and scan"
 
 on:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
   # pull_request:
   # The branches below must be a subset of the branches above
   # branches: [ main ]
@@ -52,17 +44,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      # Build your code according to Veracode rules
       - name: "Bundle / Build files to scan"
         run: zip -r foo.zip foo
 
       - name: Run Veracode Upload And Scan
         uses: veracode/veracode-uploadandscan-action@0.2.1
         with:
+          # Specify Veracode application name
           appname: "<REPLACEME Veracode App Name>"
           createprofile: false
+          # Specify path to upload
           filepath: "<REPLACEME Path to file>"
-          vid: "${{ secrets.API_ID }}"
-          vkey: "${{ secrets.API_KEY }}"
+          vid: "${{ secrets.ORG_VERACODE_API_ID }}"
+          vkey: "${{ secrets.ORG_VERACODE_API_KEY }}"
 ```
 
 ## Pipeline
@@ -87,9 +82,9 @@ on:
   # paths-ignore:
   #   - "**/*.md"
   #   - "**/*.txt"
-  schedule:
-    # Once a day
-    - cron: "0 0 * * *"
+  # schedule:
+  # Once a day
+  # - cron: "0 0 * * *"
   workflow_dispatch:
   # Trigger manually
 
@@ -105,6 +100,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      # Build your code according to Veracode rules
       - name: "Bundle / Build files to scan"
         run: zip -r foo.zip foo
 
@@ -121,11 +117,12 @@ jobs:
         # Sometimes there are conflicts, e.g. README.md
         run: unzip -o pipeline-scan-LATEST.zip
       - name: Run Pipeline Scanner
-        run: java -Dpipeline.debug=true -jar pipeline-scan.jar --veracode_api_id "${{secrets.VERACODE_API_ID}}" --veracode_api_key "${{secrets.VERACODE_API_KEY}}" --file "<REPLACEME Path to file>" --fail_on_severity="Very High, High" -jo true
+        # Specify path to your files
+        run: java -Dpipeline.debug=true -jar pipeline-scan.jar --veracode_api_id "${{secrets.ORG_VERACODE_API_ID}}" --veracode_api_key "${{secrets.ORG_VERACODE_API_KEY}}" --file "<REPLACEME Path to file>" --fail_on_severity="Very High, High" -jo true
 
       - name: Convert pipeline scan output to SARIF format
         if: always()
-        uses: Veracode/veracode-pipeline-scan-results-to-sarif@v0.1.2
+        uses: Veracode/veracode-pipeline-scan-results-to-sarif@v0.1.5
         with:
           pipeline-results-json: results.json
           output-results-sarif: veracode-results.sarif
