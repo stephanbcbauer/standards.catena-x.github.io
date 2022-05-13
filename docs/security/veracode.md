@@ -18,8 +18,8 @@ Also the name of the Veracode application must be specified under `appname`.
 name: "Veracode upload and scan"
 
 on:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
   # pull_request:
   # The branches below must be a subset of the branches above
   # branches: [ main ]
@@ -82,9 +82,9 @@ on:
   # paths-ignore:
   #   - "**/*.md"
   #   - "**/*.txt"
-  schedule:
-    # Once a day
-    - cron: "0 0 * * *"
+  # schedule:
+  # Once a day
+  # - cron: "0 0 * * *"
   workflow_dispatch:
   # Trigger manually
 
