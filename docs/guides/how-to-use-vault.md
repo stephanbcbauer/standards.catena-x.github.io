@@ -10,7 +10,7 @@ met:
 For guidance of how to use secret with an ArgoCD application, please refer to
 [_How To Use Vault Secrets With ArgoCD_](howto-use-vault-secrets-with-argocd.md).
 
-The Catena-X Vault instance URL is: [https://vault.vault.demo.catena-x.net](https://vault.vault.demo.catena-x.net)
+The Catena-X Vault instance URL is: [https://vault.demo.catena-x.net](https://vault.demo.catena-x.net)
 
 ## Available Vault Login Methods
 
@@ -56,7 +56,7 @@ store personal sensitive data.
 
 ### Vault WebUI
 
-To log in to Vault using your generated GitHub token, go to [Vault](https://vault.vault.demo.catena-x.net), select
+To log in to Vault using your generated GitHub token, go to [Vault](https://vault.demo.catena-x.net), select
 _GitHub_ as Method and enter your token in the field _GitHub token_:
 
 ![Vault Login Page](assets/vault-login-page.png)
@@ -68,7 +68,7 @@ the following steps:
 
 ```shell
 $ export GH_TOKEN="YOUR_TOKEN"
-$ export VAULT_ADDR="https://vault.vault.demo.catena-x.net:443"
+$ export VAULT_ADDR="https://vault.demo.catena-x.net:443"
 $ vault login -method=github token=$GH_TOKEN
 Success! You are now authenticated. The token information displayed below
 is already stored in the token helper. You do NOT need to run "vault login"
