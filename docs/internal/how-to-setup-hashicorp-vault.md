@@ -6,7 +6,7 @@ This how-to will guide you through the deployment and configuration of Hashicorp
 
 ## Create an AKS cluster for vault
 
-main.tf contains resorces that will be created, e.g.
+main.tf contains resources that will be created, e.g.
 ```
 module "resource_group" {
   source = "../modules/resource_group"
@@ -223,7 +223,7 @@ Initialized              true\
 Sealed                   false\
 ...
 
-Join the other (two) instances as followers to the first insance
+Join the other (two) instances as followers to the first instance
 
 Provide the vault root token when prompted
 
@@ -233,7 +233,7 @@ Join the first instance using its internal url or ip address
 
 `kubectl --kubeconfig=.kube/cx-vault-admin -n vault exec pod/vault-1 -- /bin/sh vault operator raft join http://vault-0.vault-internal:8200`
 
-Check the status of the follower instances
+Check the status of the following instances
 
 `kubectl --kubeconfig=.kube/cx-vault-admin -n vault exec pod/vault-1 -- /bin/sh vault status`
 
