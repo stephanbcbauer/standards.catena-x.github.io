@@ -7,6 +7,7 @@ This how-to will guide you through the deployment and configuration of Hashicorp
 ## Create an AKS cluster for vault
 
 main.tf contains resources that will be created, e.g.
+
 ```
 module "resource_group" {
   source = "../modules/resource_group"
@@ -46,7 +47,9 @@ module "a_record" {
   zone_name = "demo.catena-x.net"
 }
 ```
+
 variables.tf contains all parameters of the resources, e.g.
+
 ```
 variable "environment_name" {
   description = "Name of the environment to create, i.e. 'core'. Will be used in several resource names"
@@ -74,7 +77,9 @@ variable "k8s_cluster_node_count" {
   default     = 3
 }
 ```
+
 environments/vault.tfvars contains variables that are specific to the environment, and override the ones in variables.tf
+
 ```
 environment_name="vault"
 k8s_vm_size="Standard_B2s"
@@ -133,6 +138,7 @@ spec:
 Helm chart
 
 Chart.yaml
+
 ```
 apiVersion: v2
 name: vault
@@ -143,6 +149,7 @@ appVersion: 0.1
 ```
 
 values.yaml
+
 ```
 domain: "demo.catena-x.net"
 vault:
@@ -267,6 +274,7 @@ Get the approle ID and approle secret ID from Azure Keyvault cx-vault-unseal sec
 Configure Vault in Terraform code
 
 main.tf
+
 ```
 locals {
   teams = [
@@ -360,7 +368,9 @@ resource "vault_jwt_auth_backend_role" "default" {
   ]
 }
 ```
+
 variables.tf
+
 ```
 variable "vault_address" {
   description = "URL of the vault instance to configure"
@@ -388,7 +398,9 @@ variable "oidc_client_secret" {
   type        = string
 }
 ```
+
 Plan and apply with Terraform
+
 ```
 cd k8s-cluster-stack/terraform/02_vault
 terraform init
