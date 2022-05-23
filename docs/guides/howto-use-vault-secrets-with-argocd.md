@@ -143,6 +143,13 @@ have to select _Plugin_ from the dropdown selector, select the appropriate AVP p
 
 ![AVP configuration](assets/avp_plugin_webui2.png "AVP configuration")
 
+### Use multiple helm values file when using AVP
+
+Please read here if your application is using helm chart. Since we have used for plugin section to configure our vault plugin.
+The old way of configure helm value is not available anymore. Please using vault plugin `argocd-vault-plugin-helm-args` and configure it like the example:
+
+![Multiple Helm values](assets/vault-multiple-helm-values.png "AVP configuration")
+
 ## Available ArgoCD Vault Plugins
 
 For different approaches there are different ArgoCD Vault Plugins (AVP) available:
