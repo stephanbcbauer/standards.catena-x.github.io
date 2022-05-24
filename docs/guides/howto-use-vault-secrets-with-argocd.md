@@ -145,10 +145,13 @@ have to select _Plugin_ from the dropdown selector, select the appropriate AVP p
 
 ### Use multiple helm values file when using AVP
 
-Please read here if your application is using helm chart. If you use not only default `values.yaml`, but also provide an additional value file.
-Please use vault plugin `argocd-vault-plugin-helm-args` and configure it like the example:
+Please read here if your application is using helm chart. If you use not only default `values.yaml`, but also provide an
+additional value file. Please use vault plugin `argocd-vault-plugin-helm-args` and configure it like the example:
 
 ![Multiple Helm values](assets/vault-multiple-helm-values.png "AVP configuration")
+
+To configure multiple `values.yaml` in App manifest, please refer
+to [argocd-vault-plugin-helm-args](#argocd-vault-plugin-helm-args).
 
 ## Available ArgoCD Vault Plugins
 
