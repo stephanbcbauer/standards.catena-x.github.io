@@ -33,8 +33,7 @@ the plugin you must meet the following requirements:
 
 ## After the Integration
 
-The findings imports are scheduled daily at 17:30. If desired, after the integration, test issues could be sent to the
-Jira project in order to familiarize with the Veracode findings.
+The findings imports are scheduled daily at 17:30. 
 
 ### Finding types
 
