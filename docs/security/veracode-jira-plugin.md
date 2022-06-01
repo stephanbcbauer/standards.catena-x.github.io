@@ -33,7 +33,7 @@ the plugin you must meet the following requirements:
 
 ## After the Integration
 
-The findings imports are scheduled daily at 17:30. 
+The findings imports are scheduled daily at 17:30.
 
 ### Finding types
 
