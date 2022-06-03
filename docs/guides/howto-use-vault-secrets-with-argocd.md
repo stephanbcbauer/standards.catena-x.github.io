@@ -100,10 +100,9 @@ in [ArgoCD Vault Plugin Documentation](https://argocd-vault-plugin.readthedocs.i
 
 ## Configure The ArgoCD App To Use AVP
 
-To enable your ArgoCD app to use the AVP plugin there are two mandatory steps required:
+To enable your ArgoCD app to use the AVP plugin there is a mandatory step required:
 
 - Configure the app to use one of the available AVP plugins
-- Provide an environment variable _AVP_Secret_ to the plugin with _vault-secret_ as value
 
 :::info Your Vault Secret
 
@@ -130,9 +129,6 @@ spec:
     // highlight-start
     plugin:
       name: argocd-vault-plugin
-      env:
-        - name: AVP_SECRET
-          value: vault-secret
     // highlight-end
 ```
 
@@ -173,9 +169,6 @@ The App manifest should contain:
   plugin:
     //highlight-next-line
     name: argocd-vault-plugin
-    env:
-      - name: AVP_SECRET
-        value: vault-secret
 ```
 
 ### _argocd-vault-plugin-helm_
@@ -188,9 +181,6 @@ The App manifest should contain:
   plugin:
     //highlight-next-line
     name: argocd-vault-plugin-helm
-    env:
-      - name: AVP_SECRET
-        value: vault-secret
 ```
 
 ### _argocd-vault-plugin-helm-args_
@@ -205,8 +195,6 @@ The App manifest should contain:
     //highlight-next-line
     name: argocd-vault-plugin-helm-args
     env:
-      - name: AVP_SECRET
-        value: vault-secret
       //highlight-start
       - name: helm_args
         value: '-f values.yaml -f values-env.yaml'
@@ -224,7 +212,4 @@ The App manifest should contain:
   plugin:
     //highlight-next-line
     name: argocd-vault-plugin-kustomize
-    env:
-      - name: AVP_SECRET
-        value: vault-secret
 ```
