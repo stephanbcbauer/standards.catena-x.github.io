@@ -6,6 +6,4 @@ sidebar_position: 1
 
 ## CatenaX-NG Projects
 
-Put the Apache 2.0 license file in the root of your repository.
-
-To be continued soon...
+Please see examples and templates [here](https://github.com/catenax-ng/foss-example).
