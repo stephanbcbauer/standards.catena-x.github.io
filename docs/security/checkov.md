@@ -4,6 +4,12 @@ sidebar_position: 5
 
 # Checkov
 
+:::warning
+
+We no longer use Checkov - the new tool is [KICS](./how-to-integrate-kics.md).
+
+:::
+
 We scan **infrastructure-as-code** with Checkov.
 
 Add the following GitHub action _checkov.yml_ to your repository workflows.
