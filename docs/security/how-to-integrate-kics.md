@@ -29,7 +29,7 @@ on:
   #   - "**/*.md"
   #   - "**/*.txt"
   schedule:
-    - cron: "28 15 * * 3"
+    - cron: "0 0 * * *"
 
 jobs:
   analyze:
