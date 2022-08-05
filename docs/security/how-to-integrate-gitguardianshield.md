@@ -1,19 +1,18 @@
 ---
-title: How to use GitguardianShield
 sidebar_position: 4
 ---
 
-### About GitGuardianShield
+# How to integrate GitGuardianShield
 
 GitGuardianShield is a CLI application that runs in your local environment to detect secrets and block them before they
 enter the git repository. Using a hook **pre-commit**/**pre-push** the secret scans can be automated.
 
-### Prerequisites
+## Prerequisites
 
 1. Python and Pip
 2. GitGuardian account
 
-### Installation
+## Installation
 
 Execute the following CLI:
 
@@ -23,12 +22,12 @@ Execute the following CLI:
 If this doesn't work, try `pip3 install ggshield`.
 :::
 
-### Login
+## Login
 
 To use GitGuardianshield you need to be authentified by the GitGuardian Server. For this, execute `ggshield auth login`.
 This automatically generates an access token.
 
-### Local Scanning
+## Local Scanning
 
 - To scan a file use the **CLI**:  
   `ggshield secret scan path "Name of File"`
