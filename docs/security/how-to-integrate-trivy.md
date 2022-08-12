@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Trivy
+# How to integrate Trivy
 
 We **scan containers** with Trivy.
 
