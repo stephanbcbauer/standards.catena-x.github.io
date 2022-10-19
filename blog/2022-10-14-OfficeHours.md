@@ -27,8 +27,8 @@ __FOSS:__
 
 - FOSS status page:
   - More teams have moved to Tractus-X
-- To become a Commiter in Eclipse a formal process is followed: Commiter Election
-  - Commiter can propose someone to become a commiter
+- To become a Committer in Eclipse a formal process is followed: Committer Election
+  - Committer can propose someone to become a committer
   - Proposal is about whether the person can be trusted
   - They will have write access to repositories
 - Good practice for forking repositories from Tractus-X is to use __tx-__ prefix. See for example [tx-portal-frontend-registration](https://github.com/catenax-ng/tx-portal-frontend-registration)
