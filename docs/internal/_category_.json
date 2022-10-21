@@ -1,4 +1,6 @@
 {
-  "label": "Internal Guides",
-  "position": 10
+  "label": "Internal Guides (only for System Team",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": true
 }
