@@ -51,7 +51,7 @@ jobs:
       - name: Commit files
         if: ${{ steps.build_helm_repo.outputs.commit_required }} == 1
         run: |
-          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.email "devsecops@catena-x.net"
           git config --local user.name "devsecops-catenax"
           git status
           git add *.yaml
