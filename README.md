@@ -28,4 +28,4 @@ Mini guide for proceeding with documentation on [Catena-X page](https://catenax-
 
 [https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
 Rules are configured in a file named `.markdownlint.json`
-for more detailed rules have a look at [this site](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) as an example
+for more detailed rules have a look at [this site](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) as an example.
