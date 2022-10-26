@@ -20,11 +20,11 @@
 # SPDX-License-Identifier: Apache-2.0
 ###############################################################################
 
-if [ $2 == "dev" ]; then
+#if [ $2 == "dev" ]; then
 HELM_REPO_BASEDIR="static/charts/dev"
-else
-HELM_REPO_BASEDIR="static/charts/stable"
-fi
+#else
+#HELM_REPO_BASEDIR="static/charts/stable"
+#fi
 
 echo $HELM_REPO_BASEDIR
 
@@ -43,5 +43,5 @@ if [ ! -f "$HELM_REPO_BASEDIR/$chart_name/$release_name" ]; then
 curl -L -o "$HELM_REPO_BASEDIR/$chart_name/$release_name" "$release_location"
 
 # create/update helm repo index
-helm repo index --merge "$HELM_REPO_BASEDIR/dev/index.yaml" "$HELM_REPO_BASEDIR"
+helm repo index --merge "$HELM_REPO_BASEDIR/index.yaml" "$HELM_REPO_BASEDIR"
 fi

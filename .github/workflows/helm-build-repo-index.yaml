@@ -44,7 +44,7 @@ jobs:
           version: 'v3.10.1'
 
       - name: Build/Update Helm Chart Repo
-        run: ./.github/scripts/buildHelmRepoIndex.sh ${{ inputs.github_repo }} dev
+        run: ./.github/scripts/buildHelmRepoIndex.sh ${{ inputs.github_repo }}
         shell: sh
 
       - name: Commit files
