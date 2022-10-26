@@ -51,7 +51,10 @@ jobs:
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "Add changes" -a
+          git status
+          git add *.yaml
+          git add *.tgz
+          git commit -m "chore: update helm repo for ${{ inputs.github_repo }}"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
