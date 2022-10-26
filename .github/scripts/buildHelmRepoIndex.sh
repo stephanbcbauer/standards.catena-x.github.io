@@ -44,4 +44,9 @@ curl -L -o "$HELM_REPO_BASEDIR/$chart_name/$release_name" "$release_location"
 
 # create/update helm repo index
 helm repo index --merge "$HELM_REPO_BASEDIR/index.yaml" "$HELM_REPO_BASEDIR"
+
+# set notifier for trailing steps
+echo "commit_required=1" >> "$GITHUB_OUTPUT"
+else
+  echo "commit_required=0" >> "$GITHUB_OUTPUT"
 fi

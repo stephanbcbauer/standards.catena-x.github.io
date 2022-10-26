@@ -44,19 +44,22 @@ jobs:
           version: 'v3.10.1'
 
       - name: Build/Update Helm Chart Repo
+        id: build_helm_repo
         run: ./.github/scripts/buildHelmRepoIndex.sh ${{ inputs.github_repo }}
         shell: sh
 
       - name: Commit files
+        if: ${{ steps.build_helm_repo.outputs.commit_required }} == 1
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.name "devsecops-catenax"
           git status
           git add *.yaml
           git add *.tgz
           git commit -m "chore: update helm repo for ${{ inputs.github_repo }}"
 
       - name: Push changes
+        if: ${{ steps.build_helm_repo.outputs.commit_required }} == 1
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
