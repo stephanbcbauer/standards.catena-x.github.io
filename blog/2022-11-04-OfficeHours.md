@@ -27,6 +27,4 @@ __FOSS:__
 
 ## Session recording
 
-You can find the
-recording [here](https://bcgcatenax.sharepoint.com/:v:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/%5BCX%5DDevSecOps%20Office%20Hours-20221104_132726-Besprechungsaufzeichnung.mp4?csf=1&web=1&e=9sO6y8)
-.
+You can find the recording here: [Part 1](https://bcgcatenax.sharepoint.com/:v:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/%5BCX%5DDevSecOps%20Office%20Hours-20221104_121303-Meeting%20Recording.mp4?csf=1&web=1&e=7zGc2n), [Part 2](https://bcgcatenax.sharepoint.com/:v:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/%5BCX%5DDevSecOps%20Office%20Hours-20221104_132726-Besprechungsaufzeichnung.mp4?csf=1&web=1&e=9sO6y8)
