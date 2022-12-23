@@ -9,12 +9,12 @@ tags: [news, officehour]
 
 __DevSecOps:__
 
-- GitGuadian enterprise license ready until end of 2023
-- Pen test onging with BPDM and Managed Identity Wallet
+No Update
 
 __Security:__
 
-no news
+- GitGuadian enterprise license ready until end of 2023
+- Pen test onging with BPDM and Managed Identity Wallet
 
 __FOSS:__
 
