@@ -39,6 +39,7 @@ The example looks like this:
       template : null
       codeowners_available : false
       codeowners : null
+      archived : false
     }
 ```
 
@@ -58,12 +59,12 @@ And add the mapping of team to repository under `github_repositories_teams` like
 
 ## Import the state of existing forked repository
 
-Following the guide [here](https://github.com/catenax-ng/k8s-cluster-stack/tree/main/terraform/100_team_onboarding) to set up the credentials for running terraform
+Following the guide [here](https://github.com/catenax-ng/product-onboarding/tree/main/github#terraform-variable-settings-for-github-scripts) to set up the credentials for running terraform
 Now you may import the forked github repository from [previous step](#fork-a-repository-from-eclipse-tractusx).
 
 ```shell
 # Import a GitHub repository
-terraform import 'module.github.github_repository.repositories["map-key-in-github_repositories-var"]' <repository-name>
+terraform import 'github_repository.repositories["map-key-in-github_repositories-var"]' <repository-name>
 ```
 
 After the state of repository has been imported successfully. You might run the terraform plan:
