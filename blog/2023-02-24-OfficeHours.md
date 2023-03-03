@@ -28,9 +28,9 @@ tags: [news, officehour]
   - tranparency (how to contribute to FOSS)
     - descriptive commit messages
     - discussions in the open
-  - Container Images on Dockerhub must contain the [mandatory notice](https://github.com/eclipse-tractusx/app-dashboard#notice-for-docker-image) -> https://hub.docker.com/r/tractusx/app-dashboard
+  - Container Images on Dockerhub must contain a [mandatory notice](https://hub.docker.com/r/tractusx/app-dashboard) (see bottom of page)
     - not yet approved by the Eclipse Foundation
-- ongoing committer election 
+- ongoing committer election
   - please vote till March 3rd
   - all committers are obliged to vote
 
