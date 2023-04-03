@@ -14,7 +14,7 @@ tags: [news, officehour]
 - Eclipse Workflow Discussion for Pull Requests
   - Keep your PR´s against Eclipse Tractus-X small and understandable for all Committers
   - Advice Feature based Pull Requests
-  - May you could also overthink your branching strategy and forking it against Eclipse Tractus-X
+  - Maybe you could also overthink your branching strategy and forking it against Eclipse Tractus-X
   - discussed Example for too big [PR](https://github.com/eclipse-tractusx/digital-product-pass/pull/12/)
 
 ### Security
