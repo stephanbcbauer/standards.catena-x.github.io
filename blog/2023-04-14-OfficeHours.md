@@ -31,7 +31,7 @@ tags: [news, officehour]
 ## Open discussions
 
 - Helm upgrade (without vault) will generate secrets even if they exist already, e.g. db passwords. - Evelyn Gurschler is preparing a fix and will announce it in the CoP Channel
-- (digital twin) registry is now publicly available as in Tractus-X as [sldt-digital-twin-registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry)
+- (digital twin) registry is now publicly available in Tractus-X as [sldt-digital-twin-registry](https://github.com/eclipse-tractusx/sldt-digital-twin-registry)
 - deprecated [provider-backend-service](https://github.com/catenax-ng/catenax-at-home/pkgs/container/catenax-at-home%2Fprovider-backend-service) is still used by multiple teams. - Max Wesener will contact EDC team and give an update next office hours
 - Current security issue in Springboot. All teams should upgrade to v3.0.5
 - Network policies are available and can be used. Siegfried Kiermeyer offered help to review them
