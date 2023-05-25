@@ -4,7 +4,9 @@ sidebar_position: 2
 
 # Things to request
 
-We provide a standard set of resources you can request. Please create a issue within our GitHub repository within `eclipse-tractusx/sig-infra` with our
+We provide a standard set of resources you can request and working at the moment in to different GitHub Organisations [eclipse-tracutsx](https://github.com/eclipse-tractusx) repo and [catenax-ng](https://github.com/catenax-ng).  
+
+Either you want to be part of Catena-X , feel free to raise a GitHub issue under `eclipse-tractusx/sig-infra` with our
 [GitHub issue templates](https://github.com/eclipse-tractusx/sig-infra/issues/new/choose) and fill it out based on the information from the specific resource you want.
 
 some suggestions:
@@ -14,10 +16,22 @@ some suggestions:
 - Fork of eclipse-tracutsx repo to catenax-ng
 - Request a new demo - environment
 
+Or you want to be part of Eclipse Tractus-X then you need to contact the [Eclipse Foundation Helpdesk](https://eclipse-tractusx.github.io/docs/oss/issues/#eclipse-foundation-helpdesk) over GitLab issues.
+
+some suggestions:
+
+- Requesting a sonar project for a repository
+- New repository within eclipse-tracutsx
+- Requesting secrets in a eclipse-tracutsx repository
+- IP (intellectual property) checks for your code
+
+## Organization chart
+
+![organigramm.svg](assets/orga.svg)
+
 :::tip
 
-We highly recommend you to use one of our [GitHub issue templates](https://github.com/eclipse-tractusx/sig-infra/issues/new/choose)
-and fill out the requested information within the template.
+We highly recommend you to use one of our [GitHub issue templates](https://github.com/eclipse-tractusx/sig-infra/issues/new/choose) to get help from the System Team and fill out the requested information within the template.
 
 :::
 
