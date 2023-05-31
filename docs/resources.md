@@ -27,7 +27,7 @@ some suggestions:
 
 ## Organization chart
 
-![organigramm.svg](assets/orga.svg)
+![organigramm.svg](assets/support-orga.svg)
 
 :::tip
 
