@@ -36,7 +36,7 @@ tags: [ news, officehour ]
 ## Open discussions
 
 - Problems with ECA checks and issues to rewrite the Git history with the correct email-address. Issue will be clarified
-  in a dedicated 101 session.
+  in a dedicated session.
 - Questions/discussions about how to use GitHub Projects and working with milestones. This is an ongoing task. In case
   of additional questions feel free to get in touch with Fabian from System-Team, who is in the lead with this topic.
 
