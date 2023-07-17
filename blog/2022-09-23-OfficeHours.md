@@ -15,7 +15,7 @@ __Security:__
 
 - first products onboarded and started scans with invicti
   - SSL/TLS findings - false posivites, will be fixed
-  - JIRA integration is active, onboarding requests via [christian.winnen@mhp.com](mailto:christian.winnen@mhp.com)
+  - JIRA integration is active, onboarding requests via [dl_CoP_IT_Security@catena-x.net](mailto:dl_CoP_IT_Security@catena-x.net)
 - external company has been requested for pen tests
   contact for requests : [dl_CoP_IT_Security@catena-x.net](mailto:dl_CoP_IT_Security@catena-x.net)
 
