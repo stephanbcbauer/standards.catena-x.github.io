@@ -35,7 +35,7 @@ tags: [news, officehour]
 - Issues with multiple Eclipse Foundation accounts:
   - If you have multiple accounts by accident (i.e. private + company mail), please delete the one you are not using.
     Usually the private one, since you need the company address in your commits for copyright reasons
-  - Deletion request can be sent to 'privacy@eclipse.org'. Best from the Email address you want the account to be deleted
+  - Deletion request can be sent to [privacy@eclipse.org](mailto:devsecops@catena-x.net). Best from the Email address you want the account to be deleted
 - New products directly starting in eclipse-tractusx
   - If you have no code published yet, you can directly start contributing
   - If you already have initial code, you are allowed to push directly, but have to immediately open the initial contribution IP issue afterwards

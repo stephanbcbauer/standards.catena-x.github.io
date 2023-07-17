@@ -9,7 +9,7 @@ tags: [news, officehour]
 
 __DevSecOps:__
 
-- Central Mailbox for contacing System Team: devsecops@catena-x.net
+- Central Mailbox for contacing System Team: [devsecops@catena-x.net](mailto:devsecops@catena-x.net)
 - Please have a look at our new [Tractus-X Release Guidelines](https://catenax-ng.github.io/docs/trg/trg-0) (TRGs)
 
 __Security:__

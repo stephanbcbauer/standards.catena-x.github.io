@@ -29,7 +29,7 @@ tags: [news, officehour]
 
 ## Open discussions
 
-- For urgent topics use the [DevSecOps teams CoP channel](https://teams.microsoft.com/l/channel/19%3a9a3c4a05a3514d07b973c13e7b468709%40thread.tacv2/CX%2520-%2520CoP%2520DevSecOps?groupId=17b1a2dc-67fb-4a49-a2ed-dd1344321439&tenantId=1ad22c6d-2f08-4f05-a0ba-e17f6ce88380), the [Eclipse chat](https://chat.eclipse.org/#/room/#tools.tractus-x:matrix.eclipse.org), send a main to the mailing list (tractusx-dev@eclipse.org) or open an [issue in GitHub](https://github.com/eclipse-tractusx/sig-infra/issues/new/choose) so all team members receive the request immediately
+- For urgent topics use the [DevSecOps teams CoP channel](https://teams.microsoft.com/l/channel/19%3a9a3c4a05a3514d07b973c13e7b468709%40thread.tacv2/CX%2520-%2520CoP%2520DevSecOps?groupId=17b1a2dc-67fb-4a49-a2ed-dd1344321439&tenantId=1ad22c6d-2f08-4f05-a0ba-e17f6ce88380), the [Eclipse chat](https://chat.eclipse.org/#/room/#tools.tractus-x:matrix.eclipse.org), send a main to the mailing list [tractusx-dev@eclipse.org](mailto:tractusx-dev@eclipse.org) or open an [issue in GitHub](https://github.com/eclipse-tractusx/sig-infra/issues/new/choose) so all team members receive the request immediately
 - Feel free to open PRs for new organization wide issue templates [here](https://github.com/eclipse-tractusx/.github)
 
 ## Session recording
