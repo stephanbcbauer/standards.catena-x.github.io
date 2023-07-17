@@ -16,8 +16,9 @@ tags: [ news, officehour ]
 ### Security
 
 - Friendly Reminder: Please look at VeraCode
-- Info to VeraCode Demo session is coming soon
 - Security assessments ongoing
+
+> **Announcement** VeraCode presentation session is planned for the Friday 21.7.2023
 
 ### FOSS
 
