@@ -10,8 +10,10 @@ tags: [ news, officehour ]
 ### DevSecOps
 
 - Keep in mind, that resources at Eclipse Foundation (IP-Team), System-Team and Security-Team will have only limited resources available during holiday season (August 2023).
-- Reminder to set [proper](https://eclipse-tractusx.github.io/docs/release/trg-5/trg-5-04/) CPU limits on the clusters (especially Beta, Dev). See the [CPU Quota Panel](https://grafana.dev.demo.catena-x.net/d/efa86fd1d0c121a26444b636a3f509a8/kubernetes-compute-resources-cluster?orgId=1&refresh=10s&from=now-7d&to=now&viewPanel=8) which is part of this general [dashboard](https://grafana.dev.demo.catena-x.net/d/efa86fd1d0c121a26444b636a3f509a8/kubernetes-compute-resources-cluster?orgId=1&refresh=10s&from=now-7d&to=now) as reference
+- Gentle reminder to set [proper lower](https://eclipse-tractusx.github.io/docs/release/trg-5/trg-5-04/) CPU pod ressource requests / limits on dev cluster (no improvements since the last office hour) and same problems occurs on Beta cluster now as well.
+  - See the [CPU Quota Panel](https://grafana.dev.demo.catena-x.net/d/efa86fd1d0c121a26444b636a3f509a8/kubernetes-compute-resources-cluster?orgId=1&refresh=10s&from=now-7d&to=now&viewPanel=8) which is part of this general [dashboard](https://grafana.dev.demo.catena-x.net/d/efa86fd1d0c121a26444b636a3f509a8/kubernetes-compute-resources-cluster?orgId=1&refresh=10s&from=now-7d&to=now) as reference
   unit for CPU fragments are the so called millicores, which means 1000m = 1 full CPU
+  - Hint: [K8s documentation](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits)
 
 ### Security
 
