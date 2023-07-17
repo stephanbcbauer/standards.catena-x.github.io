@@ -25,7 +25,7 @@ the plugin you must meet the following requirements:
 
 ### Steps
 
-1. Contact **dl_CoP_IT_Security@catena-x.net** to request the activation of the automatic
+1. Contact **[dl_CoP_IT_Security@catena-x.net](mailto:dl_CoP_IT_Security@catena-x.net)** to request the activation of the automatic
    imports of the Veracode findings into your Jira project.
 2. Please provide the **Project Name** in Jira and **optionally a Team member** for the issues assignment. This
    team member will be automatically assigned to all imported findings.

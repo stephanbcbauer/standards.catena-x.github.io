@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Let's secure Catena-X!
 
-If you have any questions, please contact us *dl_CoP_IT_Security@catena-x.net*
+If you have any questions, please contact us *[dl_CoP_IT_Security@catena-x.net](mailto:dl_CoP_IT_Security@catena-x.net)*
 
 ## Overview
 
