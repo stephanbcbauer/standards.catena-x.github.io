@@ -35,8 +35,8 @@ tags: [ news, officehour ]
 
 ## Open discussions
 
-- Question arised about reviewing open IP issue for Digital Twin Registry application. Advised that Eclipse Foundation needs to review that, as it's not DevOps scope. With regards to PR review, it was stated that every commiter can review PR. In general two step approach is followed, first legal stuff is verified and then application related by a team member.
-- Question on rejected PR due to Eclipse Foundation Agreement, specifically what is the way to find who from involved commiters doesn't have it valid/signed off. Normally it should be visible on a detailed page. For the given case seems like on of the member didn't sign it, name was given in the communication.
+- Question arised about reviewing open IP issue for Digital Twin Registry application. Advised that Eclipse Foundation needs to review that, as it's not DevOps scope. With regards to PR review, it was stated that every committer can review PR. In general two step approach is followed, first legal stuff is verified and then application related by a team member.
+- Question on rejected PR due to Eclipse Foundation Agreement, specifically what is the way to find who from involved committers doesn't have it valid/signed off. Normally it should be visible on a detailed page. For the given case seems like on of the member didn't sign it, name was given in the communication.
 
 ## Session recording
 
