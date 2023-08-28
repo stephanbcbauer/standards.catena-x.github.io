@@ -22,7 +22,7 @@ tags: [ news, officehour ]
 
 ### FOSS
 
-During accompanying the QG Checks a couple of things poped up:
+During the QG Checks a couple of things poped up:
 
 - Commit messages/PR Description  
   Please do not reference closed systems like Catena-X Consortia Jira Tickets. The content is no public accessible but
