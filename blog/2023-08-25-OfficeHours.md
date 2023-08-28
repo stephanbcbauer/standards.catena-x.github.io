@@ -9,7 +9,8 @@ tags: [ news, officehour ]
 
 ### DevSecOps
 
-- ArgoCD update 2.6 → 2.7 in preparation. If your interested in what's new: [https://www.youtube.com/watch?v=00KxYdJKrSo](https://www.youtube.com/watch?v=00KxYdJKrSo)
+- ArgoCD update 2.6 → 2.7 in preparation. If your interested in what's
+  new: [https://www.youtube.com/watch?v=00KxYdJKrSo](https://www.youtube.com/watch?v=00KxYdJKrSo)
 - Repetition and pointing to
   - [Release Guideline Checks Dashboard](https://eclipse-tractusx.github.io/sig-release/)
   - [TRG 5.11 - Upgradeability](https://eclipse-tractusx.github.io/docs/release/trg-5/trg-5-11) (Prerelease state)
@@ -27,10 +28,10 @@ During the QG Checks a couple of things poped up:
 - Commit messages/PR Description  
   Please do not reference closed systems like Catena-X Consortia Jira Tickets. The content is no public accessible but
   only for consortia members. Please be descriptive in your Commit messages and Pull Request descriptions.
-- Do not invent new legal documentation (e.g. ``COPYRIGHT.md`), please
+- Do not invent new legal documentation (e.g. `COPYRIGHT.md`), please
   follow [TRG 7.01 - Legal Documentation](https://eclipse-tractusx.github.io/docs/release/trg-7/trg-7-01)
 - Documentation and licensing  
-  Be careful with licensing your documentation (eg. content of `/docs` folder in product repositories). There is no
+  Be careful with licensing your documentation (e.g. content of `/docs` folder in product repositories). There is no
   requirement to change the licensing of documentation to e.g. Creative Commons, there has been some confusion about in
   the
   past. [TRG 7-06 - Legal notice for end user content](https://eclipse-tractusx.github.io/docs/release/trg-7/trg-7-06/)
