@@ -44,7 +44,8 @@ During the QG Checks a couple of things poped up:
 ## Open discussions
 
 - Test automation on environments: Consortia vs Helm test + kind
-- Upgradability of Postgresql Helm Charts
+- Upgradability of Postgresql Helm Charts as the Bitnami Chart do not offer an applicable way to upgrade between major
+  PostgreSQL versions.
 - How to get support
 
 ## Session recording
