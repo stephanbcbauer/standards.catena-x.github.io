@@ -23,7 +23,7 @@ tags: [ news, officehour ]
 
 ### FOSS
 
-During the QG Checks a couple of things poped up:
+During the QG Checks a couple of things popped up:
 
 - Commit messages/PR Description  
   Please do not reference closed systems like Catena-X Consortia Jira Tickets. The content is no public accessible but
@@ -50,4 +50,5 @@ During the QG Checks a couple of things poped up:
 
 ## Session recording
 
-- You can find the recording [here](https://bcgcatenax.sharepoint.com/:v:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/20230824_DevSecOps-Office-Hour.mp4?csf=1&web=1&e=eFWQxO).
+- You can find the
+  recording [here](https://bcgcatenax.sharepoint.com/:v:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/20230824_DevSecOps-Office-Hour.mp4?csf=1&web=1&e=eFWQxO).
