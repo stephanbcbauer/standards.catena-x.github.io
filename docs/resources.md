@@ -41,10 +41,10 @@ We are happy to help you out on several topics regarding DevSecOps. The followin
 common cases. In any case, you need help, feel free to get in contact with us through
 the [CoP Channel](https://teams.microsoft.com/l/channel/19%3a9a3c4a05a3514d07b973c13e7b468709%40thread.tacv2/CX%2520-%2520CoP%2520DevSecOps?groupId=17b1a2dc-67fb-4a49-a2ed-dd1344321439&tenantId=1ad22c6d-2f08-4f05-a0ba-e17f6ce88380).
 
-## System / Security Team Board
+## System Team Board
 
 If you want to know your Issue status please have look under our GitHub Project Board
-[The System Team / Security Support](https://github.com/orgs/eclipse-tractusx/projects/9/views/1)
+[The System Team Support](https://github.com/orgs/eclipse-tractusx/projects/9/views/1)
 
 ## Request databases and other Azure services
 
@@ -58,7 +58,7 @@ We will provide azure services soon but only for critical / central services.
 Currently, SonarCloud is NOT mandatory for Release 1. VeraCode is. If you want to use SonarCloud right now, you can
 request scanning of **public** repositories (**private** are not supported!).
 
-Please use the Security [GitHub issue template](https://github.com/eclipse-tractusx/sig-infra/issues/new?assignees=the-tatanka&labels=security&template=security-support-request.md&title=)
+Please use the Security [GitHub issue template](https://github.com/eclipse-tractusx/sig-security/issues/new/choose)
 for SonarCloud support.
 
 ## Request assistance from Security team
@@ -74,7 +74,7 @@ are:
 - Gitguardian
 - Invicti
 
-Please use the Security [GitHub issue template](https://github.com/eclipse-tractusx/sig-infra/issues/new?assignees=the-tatanka&labels=security&template=security-support-request.md&title=).
+Please use the Security Repo [GitHub issue template](https://github.com/eclipse-tractusx/sig-security/issues/new/choose).
 
 ## Onboarding to **Catena-X** demonstrator environments (ArgoCD, Vault, etc.)
 
