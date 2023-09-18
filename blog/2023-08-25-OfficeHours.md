@@ -51,4 +51,4 @@ During the QG Checks a couple of things popped up:
 ## Session recording
 
 - You can find the
-  recording [here](https://bcgcatenax.sharepoint.com/:v:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/20230824_DevSecOps-Office-Hour.mp4?csf=1&web=1&e=eFWQxO).
+  recording [here](https://bcgcatenax.sharepoint.com/:v:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/20230825_DevSecOps-Business%20Hours-Recording.mp4?csf=1&web=1&e=rr9V3Z).
