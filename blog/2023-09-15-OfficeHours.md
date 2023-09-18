@@ -42,4 +42,4 @@ tags: [ news, officehour ]
 ## Session recording
 
 - You can find the
-  recording [here](https://bcgcatenax.sharepoint.com/:v:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/20230915_DevSecOps%20Business%20Hours-Recording.mp4?csf=1&web=1&e=yD0bVA).
+  recording [here](https://bcgcatenax.sharepoint.com/sites/CommunitiesofPractises/_layouts/15/stream.aspx?id=%2Fsites%2FCommunitiesofPractises%2FShared%20Documents%2FCX%2DCoP%20DevSecOps%2FOffice%5FHours%5FRegular%5FRecordings%2F20230915%5FDevSecOps%20Business%20Hours%2DRecording%2Emp4).
