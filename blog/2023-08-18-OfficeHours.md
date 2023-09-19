@@ -1,6 +1,6 @@
 ---
-slug: Office Hours 2023-09-18
-title: Office Hours 2023-09-18
+slug: Office Hours 2023-08-18
+title: Office Hours 2023-08-18
 authors: DevSecOps
 tags: [ news, officehour ]
 ---
@@ -45,4 +45,4 @@ tags: [ news, officehour ]
 
 ## Session recording
 
-- was broken this time, you can find the transkription [here](https://bcgcatenax.sharepoint.com/:w:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/20230818_DevSecOps%20Business%20Hours-Transkript.docx?d=w7cd30dd438694b3a8371bd9589606ce0&csf=1&web=1&e=Wzkj1s).
+- was broken this time, you can find the transcription [here](https://bcgcatenax.sharepoint.com/:w:/r/sites/CommunitiesofPractises/Shared%20Documents/CX-CoP%20DevSecOps/Office_Hours_Regular_Recordings/20230818_DevSecOps%20Business%20Hours-Transkript.docx?d=w7cd30dd438694b3a8371bd9589606ce0&csf=1&web=1&e=Wzkj1s).
