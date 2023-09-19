@@ -10,7 +10,7 @@ tags: [ news, officehour ]
 ### DevSecOps
 
 - QG 4 Checks are ongoing
-- Remark to the Checks and a friendly reminder always keep your Dependencies up to date and check them regularly see [TRG](https://eclipse-tractusx.github.io/docs/release/trg-7/trg-7-01#dependency-file)
+- Remark to the QG Checks and a friendly reminder to always keep your Dependency file up to date on your release branch too (if available) and check them regularly see [TRG](https://eclipse-tractusx.github.io/docs/release/trg-7/trg-7-01#dependency-file)
 
 ### Security
 
@@ -19,14 +19,14 @@ tags: [ news, officehour ]
 ### FOSS
 
 - If you have some addition to the FAQ or LINKS you want to add, please create a PR
-- Open Committer Election within the next weeks, please double-check your Junk Mail Folder if you don't get the mail for the voting
+- Open Committer Election within the next weeks, please double-check your Junk Mail Folder if you didn't get the mail for the voting
 - Link to Committer Election: [Sahil Aggarwal](https://projects.eclipse.org/projects/automotive.tractusx/elections/election-sahil-aggarwal-committer-eclipse-tractus-x)
-- For the committers "Please vote for the new committers"
+- For the committers: "Please vote for the new committers"
 
 ## Open discussions
 
-- vault image as base image because of the Impact Hashicorp switch to [BSL](https://www.hashicorp.com/bsl) discussion
-- link to the [discussion](https://github.com/eclipse-tractusx/sig-infra/discussions/233) of licence switch from HashiCorps and issue link that was raised [issue](https://github.com/eclipse-tractusx/sig-infra/issues/247)
+- Discussion on vault image as base image related to the Hashicorp license switch to [BSL](https://www.hashicorp.com/bsl)
+- Link to the [discussion](https://github.com/eclipse-tractusx/sig-infra/discussions/233) of licence switch from HashiCorp and issue link that was raised [issue](https://github.com/eclipse-tractusx/sig-infra/issues/247)
 
 ## Session recording
 
