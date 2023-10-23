@@ -16,12 +16,13 @@ tags: [ news, officehour ]
 ### Security
 
 - Veracode: New high findings, please track findings and update you dependencies.
+- Patching strategy for past releases has to be discussed.
 
 ### FOSS
 
 - Recap of [EclipseCon 2023](https://www.eclipsecon.org/2023).
-- Save the Date: 7.-8. 12. 2023 [Eclipse-TractusX Community](https://eclipse-tractusx.github.io/blog/community-days/) Days in Stuttgart.
-- Eclipse-TractusX has its own [space at Eclipse Matrix Chat](https://chat.eclipse.org/#/room/#automotive.tractusx:matrix.eclipse.org) server available.
+- Save the Date: 7.-8. 12. 2023 [Eclipse Tractus-X Community](https://eclipse-tractusx.github.io/blog/community-days/) Days in Stuttgart.
+- Eclipse-TractusX has its own [space at Eclipse Matrix Chat](https://chat.eclipse.org/#/room/#automotive.tractusx:matrix.eclipse.org) server available. There is a [poll available](https://github.com/eclipse-tractusx/sig-infra/discussions/312) to decide on room images/avatars inside our space.
 
 ## Open discussions
 
