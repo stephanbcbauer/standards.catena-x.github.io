@@ -11,7 +11,7 @@ tags: [ news, officehour ]
 
 - PostgreSQL version alignment, discussion started to get feedback from dev Teams: [GH Discussion](https://github.com/eclipse-tractusx/sig-infra/discussions/308).
 - Base Image alignment process.
-- Recap of fist Eclipse-TractusX Open Planning (19.10.2023) by Stefan Bauer.
+- Recap of fist Eclipse-TractusX Open Planning (19.10.2023) by Stephan Bauer.
 
 ### Security
 
