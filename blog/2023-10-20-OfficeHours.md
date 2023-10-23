@@ -1,5 +1,5 @@
 ---
-slug: Office Hours 2023-20
+slug: Office Hours 2023-10-20
 title: Office Hours 2023-10-20
 authors: DevSecOps
 tags: [ news, officehour ]
