@@ -9,7 +9,7 @@ tags: [ news, officehour ]
 
 ### DevSecOps / System-Team
 
-- Docker base image alignment 
+- Docker base image alignment
   - Potentially, we won't publish all of our Docker images to DockerHub
   - We are working on docs for it
   - We will introduce "ignore" options for our automated TRG checks
@@ -23,7 +23,7 @@ tags: [ news, officehour ]
 - GitGuardian License prolonged
 - Working on a Snyk License for Tractus-X together with EF
 - Security assessments will be migrated from Confluence to GitHub
-- Working on a bug bounty program 
+- Working on a bug bounty program
 
 ### FOSS
 
