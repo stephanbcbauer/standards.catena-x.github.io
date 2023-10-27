@@ -21,7 +21,7 @@ tags: [ news, officehour ]
 ### Security
 
 - GitGuardian License prolonged
-- Working on a Snyk License for Tractus-X together with EF
+- Working on a Snyk License for Tractus-X together with Eclipse Foundation
 - Security assessments will be migrated from Confluence to GitHub
 - Working on a bug bounty program
 
