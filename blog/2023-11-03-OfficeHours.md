@@ -11,9 +11,9 @@ tags: [ news, officehour ]
 
 - Kyverno upgraded to 1.10 - more information on the tool [Kyverno](https://kyverno.io/)
 - New Quality dashboard features presented:
-    - Helm chart and Application version available per product based on leading repository
-    - Metadata option for repository categorization on the dashboard layout
-- New configuration available to skip quality checks for specified docker images 
+  - Helm chart and Application version available per product based on leading repository
+  - Metadata option for repository categorization on the dashboard layout
+- New configuration available to skip quality checks for specified docker images
 
 ### Security
 
@@ -32,7 +32,6 @@ tags: [ news, officehour ]
 - Introduction on GitHub Webeditor was given
 - Explained the concern around checks highlights in the quality dashboard, the way it works is that if it doesn't find an element i.e. charts directory it marks the check green. If it finds issues within charts then reports it red.
 - Is someone aware of actions creating pull requests? Question related to automating creation of svg files from PUML and usage of the artifacts by bot. Advise is to extend the workflow with additional git commands (add & commit). There is a concern around bot commits verification, that needs to be discussed with Eclipse Foundation.
-
 
 ## Session recording
 
