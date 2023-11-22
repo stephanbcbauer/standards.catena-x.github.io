@@ -25,7 +25,7 @@ tags: [ news, officehour ]
 - GitGuardian secret scanning was done and security team get aware of HashiCorp Vault tokens problematic
   - will be a meeting in place on January 2024 and technique will be presented
 - QG Process is ongoing
-- Token discussions will be supported by Security Team. If there are questions, please contact them under [sig-security repo](https://github.com/eclipse-tractusx/sig-security/issues/new/choose)
+- Token discussions are supported by the Security Team. If there are any questions, please contact them under [sig-security repo](https://github.com/eclipse-tractusx/sig-security/issues/new/choose)
 
 ### FOSS
 
