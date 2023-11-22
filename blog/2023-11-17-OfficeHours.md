@@ -12,12 +12,12 @@ tags: [ news, officehour ]
 ### DevSecOps / System-Team
 
 - _Info_: Quality Gate  (QG) issues from System Team will come soon
-- _Info_: Kyverno Policies will be getting in place planning to our clusters, and we're playing around with that
+- _Info_: We are going to deploy [Kyverno](https://kyverno.io/) to our clusters. Goal: Verify Release Guidelines at deploy time; Warnings at first; might be enforced in future
 - _Info_: sig-infra Support issue template "[Add me as Tractus-X project contributor](https://github.com/eclipse-tractusx/sig-infra/issues/new?assignees=&labels=support&projects=&template=support-add-project-contributor.md&title=New+Tractus-X+project+contributor)" onboard a new user to our Eclipse Foundation can be handled by **any** committer depending on who was mentioned
 - PostgresSQL Alignment required feedback - Please join the [discussion](https://github.com/eclipse-tractusx/sig-infra/discussions/308)
 - Package manager upgrades in Dockerfiles are a "no-go" see [TRG 4.2](https://eclipse-tractusx.github.io/docs/release/trg-4/trg-4-02)
 - Trivy workflow failing on HIGH findings see [here](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmessage%2F19%3Ameeting_NTQxZjkzNTQtYTc4MC00NzQ3LWE2N2YtMzQ5YzMyM2E1MzMw%40thread.v2%2F1700223757067%3Fcontext%3D%257B%2522contextType%2522%253A%2522chat%2522%257D&type=message&deeplinkId=216bcb26-39f8-480d-9952-bee5e7cdf145&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true)
-- HashiCorp Vault tokens for EDC deployments --> Be careful with your root vault token in your application! Please use the Argo CD Vault plugin mechanism.
+- HashiCorp Vault tokens for EDC deployments --> Please use the Argo CD Vault plugin mechanism.
 
 ### Security
 
@@ -25,12 +25,12 @@ tags: [ news, officehour ]
 - GitGuardian secret scanning was done and security team get aware of HashiCorp Vault tokens problematic
   - will be a meeting in place on January 2024 and technique will be presented
 - QG Process is ongoing
-- Token discussions will be supported by Security Team contact them under [sig-security repo](https://github.com/eclipse-tractusx/sig-security/issues/new/choose)
+- Token discussions will be supported by Security Team. If there are questions, please contact them under [sig-security repo](https://github.com/eclipse-tractusx/sig-security/issues/new/choose)
 
 ### FOSS
 
-- Congrats to [Andrea Bertagnolli](https://github.com/ndr-brt) was successfully voted to be a committer in the [Eclipse Tractus-X project](https://projects.eclipse.org/projects/automotive.tractusx)
-- YouTube Videos from [Eclipse Foundation Con](https://www.youtube.com/@EclipseFdn) are available
+- Congrats to [Andrea Bertagnolli](https://github.com/ndr-brt). He was successfully elected to be a committer in the [Eclipse Tractus-X project](https://projects.eclipse.org/projects/automotive.tractusx)
+- YouTube Videos from [EclipseCon](https://www.youtube.com/@EclipseFdn) are available
   - 🌟 [Sebastian](https://github.com/SebastianBezold) from our System Team - [Whale Care 101 – How We Organize A 200+ Devs Project](https://www.youtube.com/watch?v=eMK1qU-VFWM)
   - 🌟 [Evelyn](https://github.com/evegufy) from our Portal Team [Charting new data spaces with Catena-X](https://www.youtube.com/watch?v=76maum1I2aw)
   - 🌟 [Angelika](https://github.com/AngelikaWittek) and her college Lina - [Open Source distributions in a cloud-native world from a technical to a legal point of view](https://youtu.be/EVg9aP_toG4?si=a6GBgfQT7Ak4Nhrm)
