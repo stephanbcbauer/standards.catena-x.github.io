@@ -16,9 +16,9 @@ tags: [ news, officehour ]
 
 ### Security
 
-- Please do not publish vulnerability reports openly
+- Please do not publish vulnerability reports openly (like screenshot from closed security tools)
 - Please do not publish sensitive personal data without consent of the person, the data belongs to (i.e. Email addresses)
-- Discussion: Should we maybe be more open with found security vulnerabilities
+- Discussion: Should we maybe be more open with found security vulnerabilities (full disclosure)
 
 ### FOSS
 
