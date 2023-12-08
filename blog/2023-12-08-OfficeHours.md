@@ -7,7 +7,6 @@ tags: [ news, officehour ]
 
 ## General updates / information
 
-
 - version 23.12 is going to be released today
 
 ### DevSecOps / System-Team
@@ -21,7 +20,7 @@ tags: [ news, officehour ]
 ### FOSS
 
 - The committer elections of [Sujit Karne](https://projects.eclipse.org/projects/automotive.tractusx/elections/election-sujit-karne-committer-eclipse-tractus-x) and [Martin Maul](https://projects.eclipse.org/projects/automotive.tractusx/elections/election-martin-maul-committer-eclipse-tractus-x) both concluded successfully - congratulations!
-- The dash tool has been extended by a new option called "-repo". This adds a link to the repository in question into the opened IP issue tickets simplifying reference/tracking. 
+- The dash tool has been extended by a new option called "-repo". This adds a link to the repository in question into the opened IP issue tickets simplifying reference/tracking.
 
 ### Open Planning / Community
 
