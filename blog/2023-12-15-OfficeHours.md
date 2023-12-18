@@ -28,7 +28,7 @@ tags: [ news, officehour ]
 
 - New meeting invites for the office hour will be sent out next year
 - New meetings will be announced in the "Community" section
-- open refinement will take place on 2024-10-10; 2023-12-19 is cancelled
+- open refinement will take place on 2024-01-10; 2023-12-19 is cancelled
 
 ## Open discussions
 
