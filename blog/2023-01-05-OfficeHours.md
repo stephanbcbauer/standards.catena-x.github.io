@@ -11,7 +11,7 @@ tags: [ news, officehour ]
 - Offboarding former Developer  
   If there are developers who left Catena-X, GH Team Maintainers are asked to do housekeeping in their
   Catenax-ng GH Teams. After removing accounts from a GH Team these accounts won't have access to Repos, ArgoCD and
-  Vault. To get deleted from GH Org catenax-ng get in contact with System-Team, who is managing the GH Org.
+  Vault any longer. To get deleted from GH Org catenax-ng get in contact with System-Team, who is managing the GH Org.
 
 ### Security
 
