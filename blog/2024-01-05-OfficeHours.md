@@ -9,9 +9,9 @@ tags: [ news, officehour ]
 
 - Happy New Year to all of you!
 - Offboarding former Developer  
-  If there have developers left Catena-X GH Team Maintainers are asked to do housekeeping in their responsible
-  Catenax-ng GH Teams. After removing accounts from a GH Team these accounts do have no longer access to Repos, ArgoCD,
-  Vault. To get deleted from GH Org catenax-ng get in contact with System-Team, who is managing the GH Org.
+  If there are developers who left Catena-X, GH Team Maintainers are asked to do housekeeping in their
+  Catenax-ng GH Teams. After removing accounts from a GH Team these accounts won't have access to Repos, ArgoCD and
+  Vault any longer. To get deleted from GH Org catenax-ng get in contact with System-Team, who is managing the GH Org.
 
 ### Security
 
@@ -39,7 +39,7 @@ tags: [ news, officehour ]
 
 - How to contribute to the catena-x.net website  
   The catena-x.net website is owned by the Catena-X Association and not maintained by Eclipse Tractus-X. Please get in
-  contact with Stephan Baur, he will get you in contact with the correct contacts.
+  contact with Stephan Bauer, he will get you in contact with the correct contacts.
 - How to contribute to Eclipse Tractus-X the first time  
   All contributions to Eclipse Tractus-X are appreciated, but you need to fulfill some requirements:
   - You need to register an [Eclipse Account](https://accounts.eclipse.org/user/register).
