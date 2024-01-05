@@ -39,7 +39,7 @@ tags: [ news, officehour ]
 
 - How to contribute to the catena-x.net website  
   The catena-x.net website is owned by the Catena-X Association and not maintained by Eclipse Tractus-X. Please get in
-  contact with Stephan Baur, he will get you in contact with the correct contacts.
+  contact with Stephan Bauer, he will get you in contact with the correct contacts.
 - How to contribute to Eclipse Tractus-X the first time  
   All contributions to Eclipse Tractus-X are appreciated, but you need to fulfill some requirements:
   - You need to register an [Eclipse Account](https://accounts.eclipse.org/user/register).
