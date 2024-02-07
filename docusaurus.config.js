@@ -69,7 +69,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "getstarted/intro",
+            docId: "getstarted/overview",
             position: "left",
             label: "Documentation",
           },
@@ -89,7 +89,7 @@ const config = {
             items: [
               {
                 label: "Get Started",
-                to: "/docs/getstarted/intro",
+                to: "/docs/getstarted/overview",
               },
               {
                 label: "ArgoCD Guides",
@@ -102,10 +102,6 @@ const config = {
               {
                 label: "Security",
                 to: "/docs/security/contact",
-              },
-              {
-                label: "FOSS",
-                to: "/docs/foss",
               },
             ],
           },

@@ -4,6 +4,14 @@ sidebar_position: 3
 
 # Frequently asked questions (FAQ)
 
+## Where I can find the latest release guidelines?
+
+Eclipse-Tractusx Release Guidelines you can find here: [https://eclipse-tractusx.github.io/docs/release](https://eclipse-tractusx.github.io/docs/release)
+
+## Where I can find the latest FOSS guidelines?
+
+You can find the guidelines in the [Developer Hub](https://eclipse-tractusx.github.io/docs/developer).
+
 ## Can I have 'admin' privileges on my catenax-ng repository?
 
 __Short answer:__ No! Administrative tasks will be performed by the team managing the GitHub organization.

@@ -1,11 +1,23 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Overview
+# Intro
+
+Welcome to our Landing / Support page. We are
+the [DevSecOps Tooling team](https://confluence.catena-x.net/display/ARTI/Product%3A+System+Team) from the Data
+Space Technology ART.
+
+We are here to provide the Catena-X CAT Stack as a base for your components to run on. It is based on Kubernetes.
+
+You can find all necessary documentation on how to get your component running in our documentation.
+
+Feel free to contribute to our documentation through a Pull Request, all contributions are welcome!
+
+## Overview
 
 This page gives you a short overview over all critical things you need to know to get started. Pls be aware that all
-other documentation is here for your to browse & share.
+other documentation is here for you to browse & share.
 
 ## Who we are
 
