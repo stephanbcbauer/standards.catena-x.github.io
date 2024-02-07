@@ -2,7 +2,12 @@
 sidebar_position: 1
 ---
 
-# Intro
+# Overview
+
+This page gives you a short overview over all critical things you need to know to get started. Pls be aware that all
+other documentation is here for you to browse & share.
+
+## Intro
 
 Welcome to our Landing / Support page. We are
 the [DevSecOps Tooling team](https://confluence.catena-x.net/display/ARTI/Product%3A+System+Team) from the Data
@@ -13,11 +18,6 @@ We are here to provide the Catena-X CAT Stack as a base for your components to r
 You can find all necessary documentation on how to get your component running in our documentation.
 
 Feel free to contribute to our documentation through a Pull Request, all contributions are welcome!
-
-## Overview
-
-This page gives you a short overview over all critical things you need to know to get started. Pls be aware that all
-other documentation is here for you to browse & share.
 
 ## Who we are
 
@@ -59,11 +59,11 @@ The format of our Office Hour has a short update section at the beginning and af
 questions or discuss specific questions you have.
 
 If you still feel lost or you don't feel confident to use our open office hour in a big group, feel free to request a
-direct [consulting](/docs/resources) with us.
+direct [consulting](../resources.md) with us.
 
 ## How to onboard your product / component
 
-For everything you need to request, pls go to our [Things to request](/docs/resources) page.
+For everything you need to request, pls go to our [Things to request](../resources.md) page.
 
 - Request access to [Catena-X (ng) GithHub Org](https://github.com/catenax-ng)
   - If you join a Team, your Team can invite you to your team
