@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Where I can find the latest release guidelines?
 
-Eclipse-Tractusx Release Guidelines you can find here: [https://eclipse-tractusx.github.io/docs/release](https://eclipse-tractusx.github.io/docs/release)
+[Eclipse-Tractusx Release Guidelines](https://eclipse-tractusx.github.io/docs/release)
 
 ## Where I can find the latest FOSS guidelines?
 
