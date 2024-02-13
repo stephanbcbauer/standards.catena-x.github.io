@@ -17,7 +17,7 @@ __DevSecOps:__
 
 __Security:__
 
-- An overview of the [security tooling](https://catenax-ng.github.io/docs/security/contact) can be found in the Catenax-ng documentation.
+- An overview of the security tooling can be found in the Catenax-ng documentation.
 - Please merge the PRs created by security team regarding "fix security config"
 
 __FOSS:__
