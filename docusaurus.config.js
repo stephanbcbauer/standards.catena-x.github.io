@@ -100,10 +100,6 @@ const config = {
                 to: "/docs/guides/Helm/helmchart",
               },
               {
-                label: "Security",
-                to: "/docs/security/contact",
-              },
-              {
                 label: "FOSS",
                 to: "/docs/foss",
               },
