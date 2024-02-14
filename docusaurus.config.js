@@ -99,10 +99,6 @@ const config = {
                 label: "Helm Chart Guides",
                 to: "/docs/guides/Helm/helmchart",
               },
-              {
-                label: "FOSS",
-                to: "/docs/foss",
-              },
             ],
           },
           {
