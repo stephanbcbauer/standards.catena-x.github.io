@@ -2,7 +2,7 @@
 title: How To Use HashiCorp Vault
 ---
 
-This guide is documents additional internal information for external [How To Use HashiCorp Vault](docs/guides/how-to-use-vault)
+This guide is documents additional internal information for external [How To Use HashiCorp Vault](../internal/how-to-use-vault.md)
 
 ## Login to web UI via OIDC
 
