@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.1">
+<title data-rh="true">CX - 0001 EDC Discovery API v.1.0.0 | Catena-X - DevSecOps</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://catena-x.net/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="CX - 0001 EDC Discovery API v.1.0.0 | Catena-X - DevSecOps"><meta data-rh="true" name="description" content="Table of Contents"><meta data-rh="true" property="og:description" content="Table of Contents"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://catena-x.net/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0"><link data-rh="true" rel="alternate" href="https://catena-x.net/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0" hreflang="en"><link data-rh="true" rel="alternate" href="https://catena-x.net/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Catena-X - DevSecOps RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Catena-X - DevSecOps Atom Feed"><link rel="stylesheet" href="/assets/css/styles.598a1639.css">
+<script src="/assets/js/runtime~main.81a11b2c.js" defer="defer"></script>
+<script src="/assets/js/main.ed1f53c7.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="Catena-X Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.svg" alt="Catena-X Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Catena-X</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/getstarted/overview">Documentation</a><a class="navbar__item navbar__link" href="/blog">News</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/catenax-ng/catenax-ng.github.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z"><input placeholder="Search" aria-label="Search" class="navbar__search-input"><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/docs/getstarted/overview">Get Started</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/resources">Things to request</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/faq">Frequently asked questions (FAQ)</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/docs/guides/ArgoCD/ArgoCDbasics">Base Guides</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/docs/how-to-onboard-teams-to-any-environment">Internal Guides (only for System Team</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" href="/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0">standards</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" tabindex="0" href="/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0">CX-0001-EDCDiscoveryAPI</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" tabindex="0" href="/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0">1.0.0</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0">CX - 0001 EDC Discovery API v.1.0.0</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.1/CX-0001-EDCDiscoveryAPI-v1.0.1">1.0.1</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.2/CX-0001-EDCDiscoveryAPI-v1.0.2">1.0.2</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/standards/CX-0001-EDCDiscoveryAPI/RELEASE_NOTES">Changelog</a></li></ul></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">standards</span><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">CX-0001-EDCDiscoveryAPI</span><meta itemprop="position" content="2"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">1.0.0</span><meta itemprop="position" content="3"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">CX - 0001 EDC Discovery API v.1.0.0</span><meta itemprop="position" content="4"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>CX - 0001 EDC Discovery API v.1.0.0</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="table-of-contents">Table of Contents<a href="#table-of-contents" class="hash-link" aria-label="Direct link to Table of Contents" title="Direct link to Table of Contents">​</a></h2>
+<ul>
+<li><a href="#cx---0001-edc-discovery-api-v100">CX - 0001 EDC Discovery API v.1.0.0</a>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#about-this-document--motivation">ABOUT THIS DOCUMENT &amp; MOTIVATION</a></li>
+<li><a href="#disclaimer--liability">DISCLAIMER &amp; LIABILITY</a></li>
+<li><a href="#revisions--update">REVISIONS &amp; UPDATE</a></li>
+<li><a href="#copyright--trademarks">COPYRIGHT &amp; TRADEMARKS</a></li>
+<li><a href="#introduction-and-overview">Introduction and Overview</a></li>
+<li><a href="#1-initial-situation">1. Initial Situation</a></li>
+<li><a href="#2-concideration-and-specifications">2. Concideration and specifications</a>
+<ul>
+<li><a href="#21-considerations">2.1. Considerations</a></li>
+<li><a href="#22-specification---the-edc-discovery-service-in-action">2.2. Specification - the EDC Discovery Service in Action</a></li>
+</ul>
+</li>
+<li><a href="#3-api-of-edc-data-discovery-service">3. API of EDC Data Discovery Service</a>
+<ul>
+<li><a href="#31-interface">3.1. iNTERFACE</a></li>
+<li><a href="#32-implementation">3.2. IMPLEMENTATION</a></li>
+<li><a href="#33-out-of-scope-entites-and-information">3.3. Out of scope entites and information</a></li>
+</ul>
+</li>
+<li><a href="#4-use-cases-of-using-the-edc-discovery-service">4. Use Cases of using the EDC Discovery Service</a></li>
+<li><a href="#5-related-standards">5. Related standards</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about-this-document--motivation">ABOUT THIS DOCUMENT &amp; MOTIVATION<a href="#about-this-document--motivation" class="hash-link" aria-label="Direct link to ABOUT THIS DOCUMENT &amp; MOTIVATION" title="Direct link to ABOUT THIS DOCUMENT &amp; MOTIVATION">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="disclaimer--liability">DISCLAIMER &amp; LIABILITY<a href="#disclaimer--liability" class="hash-link" aria-label="Direct link to DISCLAIMER &amp; LIABILITY" title="Direct link to DISCLAIMER &amp; LIABILITY">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="revisions--update">REVISIONS &amp; UPDATE<a href="#revisions--update" class="hash-link" aria-label="Direct link to REVISIONS &amp; UPDATE" title="Direct link to REVISIONS &amp; UPDATE">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="copyright--trademarks">COPYRIGHT &amp; TRADEMARKS<a href="#copyright--trademarks" class="hash-link" aria-label="Direct link to COPYRIGHT &amp; TRADEMARKS" title="Direct link to COPYRIGHT &amp; TRADEMARKS">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction-and-overview">Introduction and Overview<a href="#introduction-and-overview" class="hash-link" aria-label="Direct link to Introduction and Overview" title="Direct link to Introduction and Overview">​</a></h2>
+<p>The need to create data standards for the whole automotive value chain
+and to encourage global data sharing is growing, but this is not just
+due to the formation of new industry networks (like Catena-X). The
+definition and introduction of a cross-industry standard for the
+discovering of EDC instances is crucial for the networking of OEMs,
+suppliers, consumers, and industrial partners to automatically look up
+services and data. <em><strong>(Remark: The EDC is a separate component that is
+needed to enable a sovereign data exchange. For more details about the
+EDC, please refer to [Standardization SC-002]</strong>)</em></p>
+<p>As the Catena-X network expands, a sizable amount of data assets will be
+available via EDC connection technology. It could be difficult to
+efficiently identify the proper EDC endpoint within the network. In
+order to immediately find EDC instances throughout the network, a BPN
+number inquiry will soon be required.</p>
+<p>The following serves as the Platform Capability Data Discovery
+Services&#x27; technical documentation for the EDC Discovery Service. First,
+the EDC Discovery Service&#x27;s beginning condition is laid out,
+highlighting the current problem with an efficient discovery. Next, the
+relationships between other objects and the EDC Discovery Service are
+laid up. The EDC Discovery API is then covered in detail in the
+documentation with examples. Finally, use cases are highlighted for
+using the EDC Discovery Service.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-initial-situation">1. Initial Situation<a href="#1-initial-situation" class="hash-link" aria-label="Direct link to 1. Initial Situation" title="Direct link to 1. Initial Situation">​</a></h2>
+<p>Participants do not want their personal information made public. As a
+result, these may only be searched indirectly, which necessitates
+knowing or establishing who the data should be obtained from. Because no
+one wants to examine every EDC instance (load of the net, latency
+becomes ever larger with increasing number of participants, procedure
+does not scale thus). As a result, the number of EDC instances requested
+must be limited by suitable filters. As a result, subscribers must first
+determine who may have the data depending on their specific
+circumstances. This is performed by utilizing the EDC discovery service.
+The BPN number is currently the only criterion provided for restricting
+the EDC instances in question. (<em><strong>Remark: The BPN is a unique,
+unchangeable identifier for Business Partners. Internally, the EDC uses
+the BPN [Standardization BPM-001] to query business partners</strong>)</em></p>
+<p>In the future the resolution BPN -&gt; EDC instance might happen via the
+Gaia-X Self Descriptions (SD), but this is not yet feasible with the
+current version of the Gaia-X Trust Framework (v.22.04). As a result,
+the SD cannot be used now, and the only way that remains available is
+using the &quot;ServiceOffering&quot; at this time. But that is not optimal yet,
+especially for use cases involving decentralized Digital Twin
+registration or Traceability use case. They require a service to
+retrieve URL of EDC instances of interest related to a corporation
+defined by its Business Partner Number (BPN), but there will also be
+other cases when additional features could be needed to identify EDC
+instances of interest. Especially for the Traceability use case, where
+sometimes in the cause to identify a responsible EDC no BPN is provided.</p>
+<p>Moreover, the GAIA-X Trustframework is still being developed. It is
+possible to query for data services, particularly EDC instances, even
+though not all necessary forms of Self Descriptions are described.
+Therefore, we must use the EDC Discovery Service as a workaround until
+the Trustframework of GAIA-X delivers all necessary Self Descriptions to
+properly query for data assets.</p>
+<p>The EDC Discovery Service API aims to offer a quick and automatic
+approach of finding EDC instances and data services. As part of the EDC
+instance discovery process, it is essential to ensure interoperability
+with semantics and data sovereignty, compliance with GAIA-X and IDSA,
+support for private descriptions and private data services that are not
+visible to all participants, and the ability to find EDC instances for
+use cases like traceability and decentralized digital twin registry
+(DTR).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-concideration-and-specifications">2. Concideration and specifications<a href="#2-concideration-and-specifications" class="hash-link" aria-label="Direct link to 2. Concideration and specifications" title="Direct link to 2. Concideration and specifications">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="21-considerations">2.1. Considerations<a href="#21-considerations" class="hash-link" aria-label="Direct link to 2.1. Considerations" title="Direct link to 2.1. Considerations">​</a></h3>
+<p>Sovereignty:</p>
+<p>Participants do not want their information made public. As a result,
+these may only be searched indirectly, which requires knowing or
+figuring out from whom the data is to be obtained. Because one does not
+want to ask about every EDC instance (load of the net, latency becomes
+ever larger with increasing number of participants, procedure does not
+scale thus). As a result, the quantity of requested EDC instances must
+be constrained by appropriate filters. As a result, the subscribers must
+first identify potential data owners from their settings. For this, the
+EDC discovery service is employed. The BPN number is currently the only
+criterion provided for restricting the EDC instances in question.</p>
+<p>Performance:</p>
+<p>We will have a significant amount of data assets accessible through EDC
+connection technology as the Catena-X network grows. It may be
+challenging to quickly locate the correct EDC endpoint inside the
+network (without using broadcast or multicast). It will soon be
+necessary to query EDC instances across the network by BPN number for
+effective discoverability.</p>
+<p>GAIA-X-Trustframework:</p>
+<p>The GAIA-X-Trustframework is still in development. As long as not all of
+the required categories of Self Descriptions are specified in order to
+query for data services and, in particular, EDC instances. As a result,
+until the GAIA-X Trustframework delivers all required Self Descriptions
+to properly query for data assets, we must use the EDC Discovery Service
+as a workaround.</p>
+<p>Please note that we do not specify a standard, but rather a reference
+implementation for the time being. This can be considered as a temporary
+solution that will be superseded by the search interface of a future
+GAIA-X Federated Catalog.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="22-specification---the-edc-discovery-service-in-action">2.2. Specification - the EDC Discovery Service in Action<a href="#22-specification---the-edc-discovery-service-in-action" class="hash-link" aria-label="Direct link to 2.2. Specification - the EDC Discovery Service in Action" title="Direct link to 2.2. Specification - the EDC Discovery Service in Action">​</a></h3>
+<p><img decoding="async" loading="lazy" src="/assets/images/CX0001Picture1-9e4436735b498f62df30e21d27962dd9.png" width="907" height="496" class="img_ev3q"></p>
+<p>Figure 1 Main Components</p>
+<p>The diagram above depicts a high-level overview of the EDC Discovery
+Service workflow. Both connectors must be registered within an identity
+provider, such as DAPS, which can register assets and expose them to a
+metadata broker for other connectors to find. The consumer can then
+obtain contract offers from the provider and begin contract
+negotiations.</p>
+<p><strong>The EDC Discovery Service:</strong> During the onboarding process of EDC
+instances, the instance will be registered at EDC Discovery Service.
+This service can be requested to provide the link for EDC instances
+queried by BPN number. Please note that in the future some other
+attributes could be extended to support querying by other attributes as
+well.</p>
+<p><strong>Federated catalog:</strong> The federated catalog is used by the provider to
+offer their assets within the dataspace. The consumer uses the federated
+catalog to search for available assets. Both the provider and consumer
+use self-descriptions to list and search for assets in the federated
+catalog, which are made publicly available. Digital twin registry. A
+digital twin is the virtual representation of an asset.</p>
+<p><strong>The Digital Twin Registry:</strong> is used for a provider to register their
+digital twins, as well as asset implementation and identifiers for a
+digital twin. Additionally, consumers can search for these digital twins
+and receive information about them and their endpoints.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-api-of-edc-data-discovery-service">3. API of EDC Data Discovery Service<a href="#3-api-of-edc-data-discovery-service" class="hash-link" aria-label="Direct link to 3. API of EDC Data Discovery Service" title="Direct link to 3. API of EDC Data Discovery Service">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="31-interface">3.1. iNTERFACE<a href="#31-interface" class="hash-link" aria-label="Direct link to 3.1. iNTERFACE" title="Direct link to 3.1. iNTERFACE">​</a></h3>
+<p>The EDC / dataspace discovery interface is a CX network public available
+endpoint which can get used to retrieve EDC endpoints and the related
+BPNs, as well as search for endpoints via the BPN. Please note that EDC
+API Version considered is 0.1.0</p>
+<p><strong>To be provided attributes (Focus only on BPN for Release 2)</strong></p>
+<ul>
+<li>
+<p>BPNL, or</p>
+</li>
+<li>
+<p>BPNS, or</p>
+</li>
+<li>
+<p>BPNA contains the complete data set (name and address).</p>
+</li>
+</ul>
+<p>Please note that in the future (i.e., starting from Release 3) some
+other attributes could be extended to support querying by other
+attributes as well.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="32-implementation">3.2. IMPLEMENTATION<a href="#32-implementation" class="hash-link" aria-label="Direct link to 3.2. IMPLEMENTATION" title="Direct link to 3.2. IMPLEMENTATION">​</a></h3>
+<p>The EDC discovery endpoint can get triggered via technical as well as
+real users, if relevant roles are available.</p>
+<p>Please note that EDC API Version considered is 0.1.0</p>
+<p><em>Endpoint: POST: /api/administration/connectors/discovery</em></p>
+<p><strong>Request body</strong></p>
+<p>The request body is expecting a list of BPNs for which the EDC endpoint
+should get be fetched. Please add minimum one BPN.</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/CX0001Picture2-79eb83f054a01bf13c839242702069c5.png" width="907" height="107" class="img_ev3q"></p>
+<p><strong>Response structure</strong></p>
+<p><img decoding="async" loading="lazy" src="/assets/images/CX0001Picture3-0cd90ecbae9161234f3f3375fde9ace2.png" width="907" height="185" class="img_ev3q"></p>
+<p>in case of an empty response, no EDC is found for the requested BPNs</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="33-out-of-scope-entites-and-information">3.3. Out of scope entites and information<a href="#33-out-of-scope-entites-and-information" class="hash-link" aria-label="Direct link to 3.3. Out of scope entites and information" title="Direct link to 3.3. Out of scope entites and information">​</a></h3>
+<p>The following entities or information are currently out of scope for the
+EDC Discovery Service API</p>
+<ul>
+<li>
+<p>Establishing a kind of name convention for artifacts of data/service
+offering to enable filtering of them. This might be investigated as
+Task of PI6, and is not available yet</p>
+</li>
+<li>
+<p>Service Discovery intends to query for offers using GAIA-X standards
+based on Self Descriptions.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-use-cases-of-using-the-edc-discovery-service">4. Use Cases of using the EDC Discovery Service<a href="#4-use-cases-of-using-the-edc-discovery-service" class="hash-link" aria-label="Direct link to 4. Use Cases of using the EDC Discovery Service" title="Direct link to 4. Use Cases of using the EDC Discovery Service">​</a></h2>
+<p>The aim of Catena-X is to enable an EDC-integrated, decentralized
+deployment of digital twin registries, keeping the data as close to the
+data owners as feasible. One key component to achieving data sovereignty
+is decentralization. Decentralized registries will be a feature of
+future PIs, thus solutions and use cases must adapt. However, the
+practicality of a decentralized solution must be proven via an End to
+End scenario prior to starting a Catena-X global deployment. We intend
+to concentrate more particularly on the following elements:</p>
+<p>a.  Decentralized Registries require Digital Twins to be discovered in a
+three-step approach.</p>
+<p>i.  First find the EDCs of potential Digital Twin owners.</p>
+<p>ii. Second, query those EDCs for their Digital Twin Registry</p>
+<p>iii. Third discover the twin in that respective registry or
+registries.</p>
+<p>b.  This will require some additional information to be added to a
+discovery request in addition to the UUID of a twin.</p>
+<p>i.  Best case: BPN of the owner of the Digital Twin is known and the
+query has only to be made to the EDCs of that BPN and
+subsequently to its Digital Twin Registries</p>
+<p>ii. Worst case:  Only knowing the UUID will result in a complete
+broadcast request to 275k+ members as per planning for each
+request as the UUID is non-structured
+and does not hold any information for any kind of segmentation.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-related-standards">5. Related standards<a href="#5-related-standards" class="hash-link" aria-label="Direct link to 5. Related standards" title="Direct link to 5. Related standards">​</a></h2>
+<p>The following standards are related to or typically used by the EDC
+Discovery Service API:</p>
+<ul>
+<li>
+<p>CX - 0010 Business Partner Number</p>
+</li>
+<li>
+<p>CX - 0018 Eclipse Data Space Connector</p>
+</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/catenax-ng/catenax-ng.github.io/edit/main/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.0/CX-0001-EDCDiscoveryAPI-v1.0.0.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/internal/naming-convention"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Naming Convention</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/standards/CX-0001-EDCDiscoveryAPI/1.0.1/CX-0001-EDCDiscoveryAPI-v1.0.1"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">CX - 0001 EDC Discovery API v.1.0.1</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#table-of-contents" class="table-of-contents__link toc-highlight">Table of Contents</a></li><li><a href="#about-this-document--motivation" class="table-of-contents__link toc-highlight">ABOUT THIS DOCUMENT &amp; MOTIVATION</a></li><li><a href="#disclaimer--liability" class="table-of-contents__link toc-highlight">DISCLAIMER &amp; LIABILITY</a></li><li><a href="#revisions--update" class="table-of-contents__link toc-highlight">REVISIONS &amp; UPDATE</a></li><li><a href="#copyright--trademarks" class="table-of-contents__link toc-highlight">COPYRIGHT &amp; TRADEMARKS</a></li><li><a href="#introduction-and-overview" class="table-of-contents__link toc-highlight">Introduction and Overview</a></li><li><a href="#1-initial-situation" class="table-of-contents__link toc-highlight">1. Initial Situation</a></li><li><a href="#2-concideration-and-specifications" class="table-of-contents__link toc-highlight">2. Concideration and specifications</a><ul><li><a href="#21-considerations" class="table-of-contents__link toc-highlight">2.1. Considerations</a></li><li><a href="#22-specification---the-edc-discovery-service-in-action" class="table-of-contents__link toc-highlight">2.2. Specification - the EDC Discovery Service in Action</a></li></ul></li><li><a href="#3-api-of-edc-data-discovery-service" class="table-of-contents__link toc-highlight">3. API of EDC Data Discovery Service</a><ul><li><a href="#31-interface" class="table-of-contents__link toc-highlight">3.1. iNTERFACE</a></li><li><a href="#32-implementation" class="table-of-contents__link toc-highlight">3.2. IMPLEMENTATION</a></li><li><a href="#33-out-of-scope-entites-and-information" class="table-of-contents__link toc-highlight">3.3. Out of scope entites and information</a></li></ul></li><li><a href="#4-use-cases-of-using-the-edc-discovery-service" class="table-of-contents__link toc-highlight">4. Use Cases of using the EDC Discovery Service</a></li><li><a href="#5-related-standards" class="table-of-contents__link toc-highlight">5. Related standards</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/getstarted/overview">Get Started</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/guides/ArgoCD/ArgoCDbasics">ArgoCD Guides</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/guides/Helm/helmchart">Helm Chart Guides</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://teams.microsoft.com/l/channel/19%3a9a3c4a05a3514d07b973c13e7b468709%40thread.tacv2/CX%2520-%2520CoP%2520DevSecOps?groupId=17b1a2dc-67fb-4a49-a2ed-dd1344321439&amp;tenantId=1ad22c6d-2f08-4f05-a0ba-e17f6ce88380" target="_blank" rel="noopener noreferrer" class="footer__link-item">MS Teams - Support channel<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://catena-x.net/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Catena-X Automotive Network<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.svgrepo.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Icons used from svgrepo with CC0 License<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/catenax-ng" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Catena-X DevSecOps - funded by BMWK, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
